@@ -1,378 +1,314 @@
-export default [
+export default  [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    id: "crash-landing-on-you",
+    name: "Crash landing on you",
+    shortDescription: "En una búsqueda de la verdad tras un accidente de avión y revela conspiraciones.",
+    description: "Crash Landing on You, es un apasionante drama surcoreano que sigue la historia de Yoon Se-ri, una empresaria surcoreana que, debido a un accidente paracaidista, aterriza en Corea del Norte. Allí, conoce a Ri Jeong-hyeok, un oficial norcoreano, y surge un inesperado romance. A medida que luchan contra las barreras políticas y culturales, la serie ofrece una mezcla única de romance, comedia y suspense. Se destacan las actuaciones convincentes de los protagonistas, Hyun Bin y Son Ye-jin. La trama cautivadora y las emociones intensas hacen de Crash Landing on You un éxito que ha ganado elogios a nivel internacional.",
+    imageUrl: "https://i.pinimg.com/564x/93/7a/18/937a18ad0fea62a391c1f694e0024104.jpg",
+    facts: {
+      totalGenero: "Romance, Drama, Comedia",
+      totalReparto: "Hyun Bin, Son Ye-jin, Seo Ji-hye, Kim Jung-hyun",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    id: "itaewon-class",
+    name: "Itaewon Class",
+    shortDescription: "Venganza, lucha por la justicia y sueños en el mundo empresarial.",
+    description: "Itaewon Class es un kdrama que sigue la vida de Park Sae- ro - yi, quien, después de enfrentarse a injusticias, se propone alcanzar el éxito en el competitivo mundo empresarial de Itaewon.Después de abrir su propio bar, Sae - ro - yi se embarca en una búsqueda de redención y venganza.La serie aborda temas de perseverancia, amistad y justicia, mientras los personajes enfrentan desafíos personales y profesionales.Con una trama envolvente, destacadas actuaciones, y una narrativa socialmente relevante, Itaewon Class ha ganado popularidad por su enfoque fresco y mensajes inspiradores",
+    imageUrl: "https://i.pinimg.com/564x/d5/37/dc/d537dc35d9367dc4239976f605559f8e.jpg",
+    facts: {
+      totalGenero: "Drama, Acción",
+      totalReparto: "Park Seo-joon, Kim Da-mi, Yoo Jae-myung",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    id: "my-love-from-the-star",
+    name: "My Love from the Star",
+    shortDescription: "Un alienígena inmortal se enamora de una actriz. Romance y fantasía.",
+    description: "My Love from the Star, es un fascinante drama surcoreano que narra la historia de Do Min-joon, un alienígena que ha vivido en la Tierra durante 400 años. Su vida da un giro cuando se cruza con la famosa actriz Cheon Song-yi. A medida que desarrollan una conexión especial, enfrentan desafíos que involucran secretos cósmicos y enredos amorosos. La serie combina elementos de ciencia ficción, romance y comedia, destacando la actuación cautivadora de Kim Soo-hyun y Jun Ji-hyun. My Love from the Star ha ganado elogios por su originalidad y emotiva trama.",
+    imageUrl: "https://i.pinimg.com/564x/46/38/db/4638db8492c6744a45dc0fffde808eb0.jpg",
+    facts: {
+      totalGenero: "Romance, Fantasía, Drama",
+      totalReparto: "Kim Soo-hyun, Jun Ji-hyun, Park Hae-jin",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 21
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+    id: "descendants-of-the-sun",
+    name: "Descendants of the Sun",
+    shortDescription: "Romance en zona de guerra. Amor entre médicos y soldados.",
+    description: "Descendants of the Sun, es un emocionante drama coreano que sigue la historia del Capitán Yoo Shi-jin y la doctora Kang Mo-yeon. Ambientada en un ficticio país en guerra, la serie explora el romance entre un soldado y una médica en medio de situaciones peligrosas. Con un equilibrio entre acción, romance y humor, la trama destaca la complejidad de las relaciones en situaciones extremas. La química entre Song Joong-ki y Song Hye-kyo, así como la dirección impactante, contribuyen al éxito internacional de este drama, que ha cautivado a audiencias de todo el mundo.",
+    imageUrl: "https://www.jaehakim.com/wp-content/uploads/2555/04/DescendantsoftheSun-top.jpg",
+    facts: {
+      totalGenero: "Romance, Acción, Drama",
+      totalReparto: "Song Joong-ki, Song Hye-kyo, Jin Goo, Kim Ji-won",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    id: "strong-woman-do-bong-soon",
+    name: "Strong Woman Do Bong Soon",
+    shortDescription: "Una mujer fuerte, un CEO y un misterioso secuestrador. Comedia y romance.",
+    description: "Strong Woman Do Bong Soon, es un encantador drama surcoreano que sigue la vida de Bong Soon, una joven con una fuerza sobrenatural. Contratada como guardaespaldas del CEO Ahn Min-hyuk, su relación evoluciona de manera inesperada. Mientras Bong Soon navega entre sus habilidades extraordinarias y las complejidades del amor, la trama también aborda la persecución de un criminal en serie. Con toques de comedia romántica, acción y misterio, la serie destaca la fortaleza física y emocional de la protagonista interpretada por Park Bo-young, ofreciendo una experiencia divertida y conmovedora para los espectadores.",
+    imageUrl: "https://i.pinimg.com/564x/34/d7/4d/34d74d0f72997a88c3205189bc6dc722.jpg",
+    facts: {
+      totalGenero: "Comedia, Romance, Acción",
+      totalReparto: "Park Bo-young, Park Hyung-sik, Ji Soo",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    id: "goblin",
+    name: "Goblin: The Lonely and Great God",
+    shortDescription: "Un ser inmortal y su conexión con una joven. Fantasía y romance.",
+    description: "Goblin: The Lonely and Great God, es un kdrama que fusiona magia, romance y fantasía. La historia sigue a Kim Shin, un ser inmortal castigado, y Ji Eun-tak, una joven con el poder de ver fantasmas. Juntos, enfrentan desafíos cósmicos y exploran el significado de la vida y la muerte. Con una mezcla de emotividad y comedia, la serie destaca la conexión entre los personajes y la búsqueda del propósito. La interpretación magistral de Gong Yoo y Kim Go-eun, junto con una cinematografía deslumbrante, contribuyen al atractivo de este drama que ha ganado popularidad a nivel mundial.",
+    imageUrl: "https://i.pinimg.com/564x/df/1a/4b/df1a4b60751a97b6dfcc08f3270882f3.jpg",
+    facts: {
+      totalGenero: "Romance, Fantasía, Drama",
+      totalReparto: "Gong Yoo, Kim Go-eun, Lee Dong-wook, Yoo In-na",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    id: "hotel-del-luna",
+    name: "Hotel Del Luna",
+    shortDescription: "Un hotel para fantasmas y una historia de amor eterna. Fantasía y romance.",
+    description: "Hotel Del Luna, es un cautivador kdrama que se desarrolla en un hotel místico para almas errantes. Jang Man-wol, la gerente del hotel, está condenada a manejar el establecimiento debido a su pasado. Cuando el gerente asistente Gu Chan-sung llega, su vida se entrelaza con el destino de las almas en transición. La serie explora temas de redención, amor y perdón, todo mientras revela secretos oscuros. La actuación magistral de IU y Yeo Jin-goo, junto con la estética visual única, hace de Hotel Del Luna una experiencia emocionante y conmovedora que ha resonado internacionalmente.",
+    imageUrl: "https://i.pinimg.com/564x/8a/9a/e7/8a9ae7a390357e298ba391d7e7f29305.jpg",
+    facts: {
+      totalGenero: "Fantasía, Romance, Drama",
+      totalReparto: "IU, Yeo Jin-goo, Lee Do-hyun",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    id: "reply-1988",
+    name: "Reply 1988",
+    shortDescription: "Amistad y romance en la década de 1980. Comedia y drama.",
+    description: "Reply 1988, es un nostálgico kdrama que se centra en la vida cotidiana de familias y amigos en Seúl durante el año 1988. La serie se enfoca en cinco amigos cercanos y sus familias mientras experimentan el crecimiento, el amor y los desafíos. A través de la comedia, la amistad y la emoción, Reply 1988 captura la esencia de la juventud y la conexión familiar. Con una narrativa encantadora y personajes entrañables, el drama destaca la importancia de la comunidad y las relaciones personales en una época específica de la historia surcoreana.",
+    imageUrl: "https://i.pinimg.com/564x/12/03/85/1203853332caeafd81a6310cac7846e4.jpg",
+    facts: {
+      totalGenero: "Comedia, Drama, Romance",
+      totalReparto: "Hyeri, Park Bo-gum, Go Kyung-pyo, Ryu Jun-yeol",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 20
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    id: "while-you-were-sleeping",
+    name: "While You Were Sleeping",
+    shortDescription: "Premoniciones y la lucha contra la injusticia. Romance y drama.",
+    description: "While You Were Sleeping, es un kdrama que sigue a Hong-joo y Jae-chan, dos individuos que tienen sueños premonitorios. Ambos se esfuerzan por evitar tragedias futuras mientras lidian con el peso de sus habilidades. Cuando sus destinos se cruzan, descubren conexiones más profundas entre sus visiones y eventos del pasado. La serie mezcla hábilmente romance, thriller y elementos sobrenaturales, explorando la idea de cambiar el destino. Con las actuaciones sólidas de Lee Jong-suk y Bae Suzy, While You Were Sleeping ofrece una trama intrigante y reflexiva sobre el poder de la anticipación.",
+    imageUrl: "https://i.pinimg.com/564x/9f/c0/09/9fc009064dc0128ada3ec8ab94298e0d.jpg",
+    facts: {
+      totalGenero: "Romance, Drama, Fantasía",
+      totalReparto: "Lee Jong-suk, Bae Suzy, Jung Hae-in",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 32
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    id: "love-alarm",
+    name: "Love Alarm",
+    shortDescription: "Una aplicación que revela sentimientos amorosos. Romance y drama juvenil.",
+    description: "Love Alarm, es un kdrama que se desarrolla en un mundo donde una aplicación móvil alerta a las personas cuando alguien dentro de un radio de 10 metros tiene sentimientos románticos por ellas. La historia sigue a Kim Jo-jo, Hwang Sun-oh y Lee Hye-yeong, quienes se ven envueltos en un triángulo amoroso complicado a medida que la aplicación afecta sus relaciones. La serie explora temas de amor, amistad y la influencia de la tecnología en las conexiones humanas. Con una premisa única y actuaciones convincentes, Love Alarm ofrece una mirada contemporánea a las complejidades del romance en la era digital.",
+    imageUrl: "https://i.pinimg.com/564x/5a/01/60/5a0160bf6196482a5a946cd1d2555688.jpg",
+    facts: {
+      totalGenero: "Romance, Drama, Juvenil",
+      totalReparto: "Kim So-hyun, Jung Ga-ram, Song Kang",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+    id: "signal",
+    name: "Signal",
+    shortDescription: "Investigación criminal a través de conexiones temporales. Thriller y drama.",
+    description: "Signal, es un kdrama de misterio y crimen que sigue a dos detectives, uno del presente y otro del pasado, que se comunican a través de una radio que trasciende el tiempo. Juntos, resuelven casos sin resolver y enfrentan la corrupción policial. La trama se centra en un caso en particular que afecta a ambos periodos temporales. Con giros sorprendentes y una narrativa cautivadora, Signal fusiona elementos de ciencia ficción con intriga criminal, explorando la lucha contra la injusticia a lo largo del tiempo. Las actuaciones destacadas y la trama intensa hacen de esta serie un éxito.",
+    imageUrl: "https://i.pinimg.com/564x/d8/bb/c4/d8bbc463feac6b26107495392ec27d71.jpg",
+    facts: {
+      totalGenero: "Thriller, Drama, Misterio",
+      totalReparto: "Lee Je-hoon, Kim Hye-soo, Cho Jin-woong",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+    id: "it-s-okay-to-not-be-okay",
+    name: "It's Okay to Not Be Okay",
+    shortDescription: "Salud mental, cuentos de hadas y amor no convencional. Drama y romance.",
+    description: "It's Okay to Not Be Okay, es un conmovedor kdrama que explora la salud mental y el amor. La historia sigue a Moon Gang-tae, un cuidador de pacientes psiquiátricos, y Ko Moon-young, una exitosa escritora con trastornos emocionales. A medida que sus vidas se entrelazan, enfrentan sus propios traumas y descubren el significado del amor y la aceptación. La serie aborda temas de superación personal y la importancia de la comprensión emocional. Con actuaciones convincentes de Kim Soo-hyun y Seo Ye-ji, It's Okay to Not Be Okay destaca por su enfoque reflexivo y su estética visual única.",
+    imageUrl: "https://i.pinimg.com/564x/9d/c0/b2/9dc0b2a7f40c2c84c970e485c0ebf70e.jpg",
+    facts: {
+      totalGenero: "Drama, Romance, Psicológico",
+      totalReparto: "Kim Soo-hyun, Seo Ye-ji, Oh Jung-se",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    id: "vagabond",
+    name: "Vagabond",
+    shortDescription: "Intriga, conspiraciones y acción. Un doble juego mortal.",
+    description: "Vagabond es un emocionante drama surcoreano que combina acción, intriga y drama. La trama sigue a Cha Dal-gun, interpretado por Lee Seung-gi, un doble de acrobacias cuya vida se ve trastornada cuando su sobrina muere en un misterioso accidente aéreo. En su búsqueda de respuestas, se une a Go Hae-ri, interpretada por Bae Suzy, una agente encubierta de inteligencia. Juntos, desentrañan una compleja red de conspiraciones y corrupción que involucra a grandes corporaciones y el gobierno. Con giros inesperados, intensas escenas de acción y sólidas actuaciones, Vagabond mantiene a los espectadores al borde de sus asientos.",
+    imageUrl: "https://i.pinimg.com/564x/28/05/47/280547e94a519e711a4d110613ff7878.jpg",
+    facts: {
+      totalGenero: "Acción, Intriga, Drama",
+      totalReparto: "Lee Seung-gi, Bae Suzy, Shin Sung-rok",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+    id: "doctor-romantic",
+    name: "Doctor Romantic",
+    shortDescription: "Médicos rebeldes en un hospital rural. Drama médico y romance.",
+    description: "Doctor Romantic es un emocionante K-drama que gira en torno al brillante cirujano Boo Yong-joo, conocido como Doctor Romántico, quien, tras retirarse del renombrado hospital Geodae, termina en un pequeño centro médico en una remota provincia. La trama se desarrolla con la llegada de Kang Dong-joo y Yoon Seo-jung, jóvenes médicos con sueños y desafíos propios. La serie explora la lucha por la excelencia médica en un entorno desafiante, mientras los personajes enfrentan dilemas éticos y personales. Doctor Romantic cautiva con su mezcla de intriga médica, relaciones complejas y lecciones de vida, ofreciendo una experiencia televisiva envolvente y conmovedora.",
+    imageUrl: "https://i.pinimg.com/564x/67/2c/e9/672ce970aeffd5f234eccf502f17f927.jpg",
+    facts: {
+      totalGenero: "Drama, Romance, Médico",
+      totalReparto: "Han Suk-kyu, Yoo Yeon-seok, Seo Hyun-jin",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 20
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    id: "mr-sunshine",
+    name: "Mr. Sunshine",
+    shortDescription: "Amor y traición durante la ocupación de Corea. Épico y romántico.",
+    description: "Mr. Sunshine es un apasionante drama coreano que transporta a los espectadores a la Corea del siglo XIX durante la ocupación japonesa. La trama sigue a Eugene Choi, un niño esclavo que escapa a los Estados Unidos y regresa como capitán del ejército estadounidense. Su encuentro con Go Ae-shin, una noble patriota, desencadena una historia épica de amor y lealtad en medio de la lucha por la independencia. Con una narrativa emotiva, personajes complejos y una cuidadosa recreación histórica, Mr. Sunshine cautiva con su mezcla de romance, intriga política y acción, ofreciendo una experiencia dramática única.",
+    imageUrl: "https://i.pinimg.com/564x/86/ee/bb/86eebbb37d6d35a105ff4e77915a32a9.jpg",
+    facts: {
+      totalGenero: "Romance, Épico, Drama",
+      totalReparto: "Lee Byung-hun, Kim Tae-ri, Yoo Yeon-seok",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 24
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+    id: "the-heirs",
+    name: "The Heirs",
+    shortDescription: "Amor en el mundo de la alta sociedad y la herencia. Romance y drama.",
+    description: "The Heirs es un popular K-drama que combina romance y drama adolescente. La trama sigue la vida de Cha Eun-sang, una joven de clase trabajadora que se ve envuelta en el extravagante mundo de la alta sociedad cuando entra en la prestigiosa escuela secundaria Empire High. Allí, se encuentra con Kim Tan, el heredero de un imperio empresarial, desencadenando una historia de amor complicada por las diferencias de clase y las expectativas familiares. Con actuaciones convincentes y escenarios lujosos, The Heirs explora temas de amor, amistad y la lucha contra las barreras sociales en un emocionante contexto surcoreano.",
+    imageUrl: "https://i.pinimg.com/564x/26/da/29/26da29abd4a4300235b185f1f299749f.jpg",
+    facts: {
+      totalGenero: "Romance, Drama, Escolar",
+      totalReparto: "Lee Min-ho, Park Shin-hye, Kim Woo-bin",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 20
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+    id: "do-you-like-brahms",
+    name: "Do You Like Brahms?",
+    shortDescription: "Pasión por la música clásica y relaciones complicadas. Romance y drama.",
+    description: "Do You Like Brahms? es un apasionante K-drama que sigue la vida de talentosos músicos clásicos mientras enfrentan desafíos personales y profesionales. La trama se centra en la pianista prodigio Chae Song-ah y el violinista Park Joon-young, quienes buscan la felicidad en sus carreras y relaciones. Con una mezcla cautivadora de romance y música clásica, la serie explora temas de sacrificio, amor y perseverancia. Con actuaciones convincentes y una banda sonora emotiva, Do You Like Brahms? ofrece una experiencia conmovedora y artística que sumerge al espectador en el fascinante mundo de la música clásica y los altibajos de la vida.",
+    imageUrl: "https://i.pinimg.com/564x/44/84/e4/4484e4c3370bc59903585d1be1b04ef6.jpg",
+    facts: {
+      totalGenero: "Romance, Drama, Musical",
+      totalReparto: "Kim Min-jae, Park Eun-bin, Kim Sung-cheol",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+    id: "my-mister",
+    name: "My Mister",
+    shortDescription: "Vínculos inesperados en medio de la adversidad. Drama y relación humana.",
+    description: "My Mister es un fascinante K-drama surcoreano que se sumerge en la complejidad de la vida adulta, destacando la lucha contra la adversidad y la redención personal. La trama sigue la vida de tres hermanos en sus cuarenta años, abordando temas como la familia disfuncional, la corrupción corporativa y las relaciones interpersonales. Con una narrativa emotiva y personajes profundamente desarrollados, la serie explora la capacidad de la bondad humana para superar desafíos abrumadores. A través de una cinematografía cautivadora y actuaciones magistrales, My Mister cautiva a la audiencia con su realismo crudo y emotivo, ofreciendo una experiencia televisiva inolvidable.",
+    imageUrl: "https://i.pinimg.com/564x/36/ec/b0/36ecb0679c0e476d09e88c95f6d359f8.jpg",
+    facts: {
+      totalGenero: "Drama, Familiar, Relaciones Humanas",
+      totalReparto: "Lee Sun-kyun, IU, Na Moon-hee",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+    id: "moon-lovers-scarlet-heart-ryeo",
+    name: "Moon Lovers: Scarlet Heart Ryeo",
+    shortDescription: "Un emocionante drama coreano que mezcla romance y fantasía, ambientado en la dinastía Goryeo.",
+    description: "Un apasionante drama surcoreano que fusiona romance histórico y fantasía. La trama sigue a una mujer del siglo XXI, interpretada por IU, quien viaja en el tiempo y se encuentra en la dinastía Goryeo. Atrapada en una compleja red de intrigas políticas y amorosas, se ve envuelta en los conflictos de varios príncipes, interpretados por estrellas como Lee Joon-gi y Kang Ha-neul. Con giros emocionantes, intensas relaciones y momentos históricos, el drama destaca por su narrativa cautivadora y la actuación convincente del elenco, llevando a los espectadores a un viaje inolvidable entre el pasado y el presente.",
+    imageUrl: "https://i.pinimg.com/564x/c3/9d/ec/c39dec2add7e91d7430397d3fbf48ee7.jpg",
+    facts: {
+      totalGenero: "Romance, Drama Histórico, Fantasía",
+      totalReparto: "Lee Joon-gi, IU, Kang Ha-neul",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 20
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+    id: "beauty-inside",
+    name: "The Beauty Inside",
+    shortDescription: "Una mujer que cambia de apariencia cada mes. Romance y comedia.",
+    description: "The Beauty Inside es un cautivador K-drama que sigue la historia de Han Se-gye, una famosa actriz que misteriosamente cambia de apariencia física cada cierto tiempo. Atrapada en este fenómeno, lucha por mantener su identidad en secreto mientras se enfrenta a los desafíos del amor y la aceptación. El guión ingenioso explora temas de identidad, autenticidad y conexiones emocionales genuinas. Con actuaciones impactantes de Seo Hyun-jin y Lee Min-ki, el drama ofrece una mezcla única de romance, comedia y drama, manteniendo a los espectadores intrigados y emocionados a lo largo de sus episodios.",
+    imageUrl: "https://i.pinimg.com/736x/d8/e5/25/d8e52546207ee8b65e3ee828fa9a4121.jpg",
+    facts: {
+      totalGenero: "Romance, Comedia, Drama",
+      totalReparto: "Seo Hyun-jin, Lee Min-ki, Lee Da-hee",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+    id: "w-two-worlds",
+    name: "W: Two Worlds",
+    shortDescription: "Una webtoon cobra vida y une dos dimensiones. Thriller y romance.",
+    description: "W: Two Worlds es un apasionante drama surcoreano que fusiona hábilmente el mundo real con el de un cómic. La trama sigue a Kang Chul, un personaje de cómic que cobra vida, y Oh Yeon-joo, una cirujana cardiovascular atrapada entre dos dimensiones. Con elementos de fantasía, romance y suspenso, la serie explora la interacción entre ambos mundos, desentrañando misterios y desafíos. Protagonizado por Lee Jong-suk y Han Hyo-joo, W: Two Worlds ofrece una experiencia única que mantiene a los espectadores intrigados mientras navegan por los límites entre la realidad y la imaginación.",
+    imageUrl: "https://i.pinimg.com/564x/68/12/c5/6812c510e151cd4cee7f4b294ca9ee14.jpg",
+    facts: {
+      totalGenero: "Romance, Thriller, Ciencia Ficción",
+      totalReparto: "Lee Jong-suk, Han Hyo-joo, Jung Yoo-jin",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+    id: "tomorrow-with-you",
+    name: "Tomorrow With You",
+    shortDescription: "Viajes en el tiempo y destino entrelazado. Romance y drama.",
+    description: "Tomorrow With You es un cautivador K-drama que fusiona romance y viajes en el tiempo. La historia sigue a Yoo So-joon, un exitoso CEO que puede prever el futuro, y Song Ma-rin, una talentosa artista. Aunque inicialmente casados por conveniencia, su relación evoluciona cuando So-joon revela su habilidad y decide utilizarla para cambiar el destino. Con giros inesperados y una narrativa emotiva, el drama explora el amor en todas sus complejidades, tejiendo una trama fascinante que mantiene a los espectadores ansiosos por descubrir cómo el tiempo influirá en su destino compartido.",
+    imageUrl: "https://i.pinimg.com/564x/53/08/ab/5308abe576dd6e165e45464949db15cb.jpg",
+    facts: {
+      totalGenero: "Romance, Drama, Ciencia Ficción",
+      totalReparto: "Lee Je-hoon, Shin Min-a, Kim Ye-won",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+    id: "reply-1994",
+    name: "Reply 1994",
+    shortDescription: "Amistad y amor en la década de 1990. Comedia y drama.",
+    description: "Un emocionante drama que se desarrolla en el vibrante Seúl de 1994. La trama sigue a un grupo de amigos universitarios que comparten una casa, explorando sus relaciones y experiencias de vida durante esa década. Con un enfoque nostálgico y humorístico, la serie destaca las diferencias culturales entre regiones de Corea y aborda temas como la amistad, el amor y las decisiones de vida. A través de flash-forwards, mantiene a la audiencia adivinando la identidad del esposo de la protagonista, creando intriga y emoción en cada episodio. Reply 1994 ofrece una conmovedora mirada a la juventud y la evolución personal.",
+    imageUrl: "https://i.pinimg.com/564x/16/7c/40/167c401bf3ae77109cdaae44a6893b41.jpg",
+    facts: {
+      totalGenero: "Comedia, Drama, Romance",
+      totalReparto: "Go Ara, Jung Woo, Yoo Yeon-seok",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+    id: "cheese-in-the-trap",
+    name: "Cheese in the Trap",
+    shortDescription: "Intrigas universitarias y relaciones complicadas. Drama y romance.",
+    description: "Cheese in the Trap es un apasionante K-drama que mezcla romance y suspenso, basado en el webtoon homónimo. La historia sigue a Hong Seol, una estudiante universitaria trabajadora, y Yoo Jung, un chico popular con un lado misterioso. A medida que su relación florece, Seol descubre las complejidades ocultas detrás de la fachada encantadora de Yoo Jung. El drama explora temas como la desconfianza, la manipulación y el crecimiento personal en un contexto universitario. Con actuaciones convincentes y giros inesperados, Cheese in the Trap cautiva a los espectadores con su intriga emocional y exploración de las relaciones humanas.",
+    imageUrl: "https://i.pinimg.com/564x/1a/b8/1f/1ab81fa1b82daae817c0e05dcc77743d.jpg",
+    facts: {
+      totalGenero: "Drama, Romance, Escolar",
+      totalReparto: "Park Hae-jin, Kim Go-eun, Seo Kang-joon",
+      totalSubtitulos: "Español, Inglés, Coreano",
+      cantidadEpisodios: 16
     }
-  }
+  },
 ];
