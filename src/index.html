@@ -3,11 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-<<<<<<< HEAD
-  <title>K-Drama Verse </title>
-=======
   <title>k-drama verse</title>
->>>>>>> 2b2c9fcd4ad28fccffb525b0268b57f797db1bf2
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,28 +16,31 @@
     href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300;500&family=Roboto:wght@300;700&family=Staatliches&display=swap"
     rel="stylesheet">
 </head>
-
 <body>
   <header>
-<<<<<<< HEAD
-    
-    <h1> <img src="imagenes/logo.png" alt="Logo de Kdrama Verse"> K-DRAMA <br>
-    VERSE</h1>
-  </header>
-  <main>
-    <h2> Listado de K-dramas  </h2>
-    <div id="root">
-
-    </div>
-  </main>
-  <footer> CREADO POR : ANTONE GONZALES Y MELANY VENTURA </footer>
-=======
     <img src="images/logo.png" class="logo">
     <h1>K-DRAMA<br />VERSE</h1>
   </header>
   <main>
     <div>
-      
+      <!--Seccion genero-->
+      <label for="Genero">Genero:</label>
+      <select name="genero" data-testid="select-filter">
+        <option value="romance">Romance</option>
+        <option value="drama">Drama</option>
+        <option value="comedia">Comedia</option>
+        <option value="fantasia">Fantasia</option>
+        <option value="thriller">Thriller</option>
+        <option value="accion">Accion</option>
+      </select>
+      <!--Seccion Subtitulos-->
+
+      <!--Seccion ordenar A-Z-->
+      <label for="Ordenar">Ordenar:</label>
+      <select name="ordenar" data-testid="select-sort">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
     </div>
     <h2>Listado de k-dramas</h2>
     <div id="root"></div>
@@ -51,8 +50,6 @@
     CREADO POR <br /> ANTONE GONZALES &amp; MELANY VENTURA
   </footer>
 
-
->>>>>>> 2b2c9fcd4ad28fccffb525b0268b57f797db1bf2
   <script src="main.js" type="module"></script>
 </body>
 
