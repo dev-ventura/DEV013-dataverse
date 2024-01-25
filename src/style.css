@@ -70,6 +70,7 @@ ul {
     border-radius: 5%;
 }
 
+
 footer {
     display: flex;
     background: rgba(184, 223, 216, 1);
@@ -79,4 +80,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+label {
+    color:  white
 }
