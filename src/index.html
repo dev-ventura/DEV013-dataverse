@@ -16,7 +16,6 @@
     href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300;500&family=Roboto:wght@300;700&family=Staatliches&display=swap"
     rel="stylesheet">
 </head>
-
 <body>
   <header>
     <img src="images/logo.png" class="logo">
@@ -30,6 +29,25 @@
       <option value="Coreano">Coreano</option>
       </select>
 
+    <div>
+      <!--Seccion genero-->
+      <label for="Genero">Genero:</label>
+      <select name="genero" data-testid="select-filter">
+        <option value="romance">Romance</option>
+        <option value="drama">Drama</option>
+        <option value="comedia">Comedia</option>
+        <option value="fantasia">Fantasia</option>
+        <option value="thriller">Thriller</option>
+        <option value="accion">Accion</option>
+      </select>
+      <!--Seccion Subtitulos-->
+
+      <!--Seccion ordenar A-Z-->
+      <label for="Ordenar">Ordenar:</label>
+      <select name="ordenar" data-testid="select-sort">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
     </div>
     <h2>Listado de k-dramas</h2>
     <div id="root"></div>
@@ -38,7 +56,6 @@
   <footer>
     CREADO POR <br /> ANTONE GONZALES &amp; MELANY VENTURA
   </footer>
-
 
   <script src="main.js" type="module"></script>
 </body>
