@@ -1,44 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
-    background-color: black;
+    background: rgba(0, 0, 0, 1);
 }
+
 header {
-    background-color: #B8DFD8 ;
-    margin: 0;
-    font-family: bungee;
+    display: flex;
+    background: rgba(232, 246, 239, 1);
+    grid-gap: 0.2%;
+    padding: 0.5%;
 }
+
+.logo {
+    width: 3%;
+    height: 3%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+
+h1 {
+    font-size: 15px;
+    font-family: 'Bungee', sans-serif;
+    color: rgba(76, 76, 109, 1);
+    margin-top: 20px;
+}
+
 h2 {
-    background-color: #B8DFD8 ;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(232, 246, 239, 1);
+    margin-left: 40px;
+    margin-top: 25px;
 }
+
+img {
+    width: 320px;
+    height: 180px;
+    margin: 0px;
+    border-radius: 5% 5% 0% 0%;
+}
+
+p {
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgba(76, 76, 109, 1);
+}
+
+h3 {
+    margin: 0px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(30, 30, 30, 1);
+}
+
 ul {
-    list-style-type: none;
-    padding: 0;
-}
-img{
-    max-width: 100%;
-    border-radius: 8px 8px 0 0;
-}
-li {
-    list-style: none;
-    background-color: #B8DFD8 ;
-    margin: 1rem;    
-    border-radius: 8px ;
-    font-family: roboto; 
-    margin: 10px;
-    width: 250px;
-    box-sizing: border-box;
-}
-#root {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 20px;
+    gap: 15px;
 }
+
+.lista {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    background: rgba(184, 223, 216, 1);
+    width: 320px;
+    height: 250px;
+    border-radius: 5%;
+}
+
 footer {
-    background-color: #B8DFD8 ;
+    display: flex;
+    background: rgba(184, 223, 216, 1);
+    color: rgba(30, 30, 30, 1);
+    font-size: 15px;
+    font-family: 'Bungee', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
