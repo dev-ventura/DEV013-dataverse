@@ -34,6 +34,7 @@ export const renderItems = (data) => {
 
   // Devolver el contenedor principal con todos los elementos renderizados
   return container;
+  // esto es una prueba 
 };
 
 
