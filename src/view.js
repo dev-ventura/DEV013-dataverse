@@ -1,12 +1,11 @@
 export const renderItems = (data) => {
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-
   // iterar en el arreglo usando forEach
   // por cada elemento se debe crear un li
   // cada li debe tener una estructura(con datos seleccionados)
   // cada li se debe agregar a la ul
   // agregar el ul a div 'root'
-  const items = document.getElementById('root');
+  
   const ul = document.createElement('ul');
   data.forEach(element => {
     const li = document.createElement('li');
@@ -20,6 +19,5 @@ export const renderItems = (data) => {
     </dl>`
     ul.appendChild(li)
   });
-  return items.appendChild(ul)
-
+  return ul
 };

@@ -1,8 +1,11 @@
-import { example } from './dataFunctions.js';
+//import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
-renderItems(data)
+// interaccion con el DOM
+const items = document.getElementById('root');
+
+items.appendChild(renderItems(data))
 
 
 
