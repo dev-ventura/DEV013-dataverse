@@ -1,6 +1,5 @@
 //importando funciones
-import { filtrarGenero } from './dataFunctions.js';
-import { filtrarSubtitulos } from './dataFunctions.js';
+import { filterData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -9,26 +8,22 @@ import data from './data/dataset.js';
 const rootElement = document.querySelector('#root');
 // aqui renderizamos los item sacados del dataset con la funcion que creamos en view y lo pasamos a html
 rootElement.appendChild(renderItems(data));
-
-// aqui invocamos a las opciones de seleccion por genero
+// aqui invocamos a las opciones de seleccion por genero DOM
 const selectGenre = document.querySelector("select[name=genero]");
 // evento change 
 selectGenre.addEventListener("change", (event) => {
     const generoSeleccionado = event.target.value;
-    //console.log(event.target.value);
-    // llamando a la funcion generoFiltrado de dataFunctions.js
-    const generoFiltrado = filtrarGenero(data, generoSeleccionado)
+    //llamo a la funcion de filtrar data
+    const generoFiltrado = filterData(data, "totalGenero" ,generoSeleccionado)
     rootElement.innerHTML = "";
     rootElement.appendChild(renderItems(generoFiltrado));
-    //console.log(event.target.value);
 })
-
-// por subtitulos
+// aqui invocamos a las opciones de seleccion por subtitulos DOM
 const selectSubtitle = document.querySelector("select[name=subtitle]");
 selectSubtitle.addEventListener("change", (event) => {
   const idiomaSeleccionado = event.target.value;
-  //llamo a la funcion de filtrar Subtitulos 
-  const kdramasFiltrados = filtrarSubtitulos(data, idiomaSeleccionado)
+  //llamo a la funcion de filtrar data
+  const kdramasFiltrados = filterData(data, "totalSubtitulos" , idiomaSeleccionado)
   rootElement.innerHTML = ""; // Limpiar el contenedor root
   rootElement.appendChild(renderItems(kdramasFiltrados));
 })
