@@ -16,22 +16,18 @@
     href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300;500&family=Roboto:wght@300;700&family=Staatliches&display=swap"
     rel="stylesheet">
 </head>
+
 <body>
   <header>
     <img src="images/logo.png" class="logo">
     <h1>K-DRAMA<br />VERSE</h1>
   </header>
   <main>
-      <label for="Subtitle">Subtitulos</label>
-      <select data-testid="select-filter" name="Subtitle" id="filter">Subtitulos
-      <option value="Español">Español</option>
-      <option value="Inglés">Inglés</option>
-      <option value="Coreano">Coreano</option>
-      </select>
+
 
     <div>
       <!--Seccion genero-->
-      <label for="Genero">Genero:</label>
+      <label for="Genero">Genero: </label>
       <select name="genero" data-testid="select-filter">
         <option value="romance">Romance</option>
         <option value="drama">Drama</option>
@@ -41,9 +37,15 @@
         <option value="accion">Accion</option>
       </select>
       <!--Seccion Subtitulos-->
+      <label for="Subtitle">Subtitulo: </label>
+      <select name="subtitle" data-testid="select-filter"  id="filter">
+        <option value="Español">Español</option>
+        <option value="Inglés">Inglés</option>
+        <option value="Coreano">Coreano</option>
+      </select>
 
       <!--Seccion ordenar A-Z-->
-      <label for="Ordenar">Ordenar:</label>
+      <label for="Ordenar">Ordenar: </label>
       <select name="ordenar" data-testid="select-sort">
         <option value="asc">A - Z</option>
         <option value="desc">Z - A</option>

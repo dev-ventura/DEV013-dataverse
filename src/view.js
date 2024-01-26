@@ -1,5 +1,4 @@
 export const renderItems = (data) => {
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
   // Creamos un contenedor para los elementos renderizados
   const container = document.createElement('ul');
 
@@ -12,22 +11,16 @@ export const renderItems = (data) => {
     // Creamos una imagen DOM y establecemos la fuente (imagenURL)
     const imageUrl = document.createElement('img');
     imageUrl.src = item.imageUrl;
-    // Creamos un objeto para mostrar el número de episodios y genero
+    // Creamos un objeto para mostrar el número de episodios, genero y subtitulos
     const descriptionTotal = document.createElement('p');
-    //const genreTotal = document.createElement('p');
-    //const subtitleTotal = document.createElement('p');
     descriptionTotal.textContent = `${item.facts.cantidadEpisodios} Ep. | ${item.facts.totalGenero} | Sub. ${item.facts.totalSubtitulos}`;
-    //genreTotal.textContent = `${item.facts.totalGenero}`;
     // Creamos un objeto para mostrar el nombre del k-drama
     const nameKdrama = document.createElement('h3');
     nameKdrama.textContent = item.name;
     // Agregar los elementos al contenedor del item
     itemContainer.appendChild(imageUrl);
     itemContainer.appendChild(descriptionTotal);
-    //itemContainer.appendChild(genreTotal);
     itemContainer.appendChild(nameKdrama);
-    //itemContainer.appendChild(subtitleTotal);
-
     // Agregar el contenedor del item al contenedor principal
     container.appendChild(itemContainer);
   });
