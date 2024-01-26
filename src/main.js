@@ -22,17 +22,18 @@ selectGenre.addEventListener("change", (event) => {
     rootElement.appendChild(renderItems(generoFiltrado));
     //console.log(event.target.value);
 })
+
 // por subtitulos
 const selectSubtitle = document.querySelector("select[name=subtitle]");
 selectSubtitle.addEventListener("change", (event) => {
-    const idiomaSeleccionado = event.target.value;
-    //llamo a la funcion de filtrar Subtitulos 
-    const kdramasFiltrados = filtrarSubtitulos(data, idiomaSeleccionado)
-    rootElement.innerHTML = ""; // Limpiar el contenedor root
-    rootElement.appendChild(renderItems(kdramasFiltrados));
+  const idiomaSeleccionado = event.target.value;
+  //llamo a la funcion de filtrar Subtitulos 
+  const kdramasFiltrados = filtrarSubtitulos(data, idiomaSeleccionado)
+  rootElement.innerHTML = ""; // Limpiar el contenedor root
+  rootElement.appendChild(renderItems(kdramasFiltrados));
 })
 // aqui invocamos a las opciones para ordenar de asc y desc
 const order = document.querySelector("select[data-testid=select-sort]");
 order.addEventListener("change", (event) => {
-    console.log(event.target.value);
+  console.log(event.target.value);
 })
