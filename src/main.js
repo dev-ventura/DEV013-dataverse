@@ -1,4 +1,5 @@
 //importando funciones
+import { filtrarGenero } from './dataFunctions.js';
 import { filtrarSubtitulos } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
@@ -10,10 +11,16 @@ const rootElement = document.querySelector('#root');
 rootElement.appendChild(renderItems(data));
 
 // aqui invocamos a las opciones de seleccion por genero
-const selectGenre = document.querySelector("select[data-testid=select-filter]");
+const selectGenre = document.querySelector("select[name=genero]");
 // evento change 
 selectGenre.addEventListener("change", (event) => {
-    console.log(event.target.value);
+    const generoSeleccionado = event.target.value;
+    //console.log(event.target.value);
+    // llamando a la funcion generoFiltrado de dataFunctions.js
+    const generoFiltrado = filtrarGenero(data, generoSeleccionado)
+    rootElement.innerHTML = "";
+    rootElement.appendChild(renderItems(generoFiltrado));
+    //console.log(event.target.value);
 })
 // por subtitulos
 const selectSubtitle = document.querySelector("select[name=subtitle]");
