@@ -4,6 +4,7 @@ export const filterData = (data, filterBy , value) => {
     const kdramasFiltrados = data.filter(item => item.facts[filterBy] === value);
     console.log(kdramasFiltrados)
     return kdramasFiltrados;
+    // cambios 
  }
 
 
