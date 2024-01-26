@@ -10,7 +10,12 @@ export const filtrarSubtitulos = (data, idioma) => {
     // Si no es ninguno de esos 3 idiomas , mantener las mismas tarjetas sin cambios
     return data;
   }
-};
-export const anotherExample = () => {
-  return [];
-};
+
+  // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
+
+  export const filterData = () => {
+    return 'example';
+  };
+  export const anotherExample = () => {
+    return [];
+  };
