@@ -1,14 +1,12 @@
 //importando funciones
-import { filterData } from './dataFunctions.js';
+import { filterData, sortData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
-
 // interaccion con el DOM
 // Renderizar los elementos y agregarlos al cuerpo del documento
 const rootElement = document.querySelector('#root');
 // en esta variable estan los valores de toda la data 
 let totalData = [...data]
-
 // aqui renderizamos los item sacados del dataset con la funcion que creamos en view y lo pasamos a html
 rootElement.appendChild(renderItems(totalData));
 // aqui invocamos a las opciones de seleccion por genero DOM
@@ -32,11 +30,26 @@ selectSubtitle.addEventListener("change", (event) => {
   rootElement.innerHTML = ""; // Limpiar el contenedor root
   rootElement.appendChild(renderItems(totalData));
 })
-
-
-
-// aqui invocamos a las opciones para ordenar de asc y desc
-// const order = document.querySelector("select[data-testid=select-sort]");
-//order.addEventListener("change", (event) => {
-//console.log(event.target.value);
-//})
+// aqui invocamos a las opciones para ordenar de asc y desc "DOM"
+const order = document.querySelector("select[name=ordenar]");
+order.addEventListener("change", (event) => {
+  // creamos la variable ordenSeleccionado que contiene el valor al hacer click (A-Z) (Z-A)
+  const ordenSeleccionado = event.target.value;
+  // si selecciona asc que se ordene ascendente
+  //  de lo contrario que ordene descendente
+  if (ordenSeleccionado === "asc") {
+    // Ordenar por nombre de manera ascendente
+    const datosOrdenadosAsc = sortData(totalData, "name", "asc");
+    totalData = [...datosOrdenadosAsc]
+    console.log(datosOrdenadosAsc);
+    rootElement.innerHTML = "";
+    rootElement.appendChild(renderItems(datosOrdenadosAsc));
+  } else {
+    // Ordenar por nombre de manera descendente
+    const datosOrdenadosDesc = sortData(totalData, "name", "desc");
+    totalData = [...datosOrdenadosDesc]
+    console.log(datosOrdenadosDesc);
+    rootElement.innerHTML = "";
+    rootElement.appendChild(renderItems(datosOrdenadosDesc));
+  }
+});

@@ -7,5 +7,23 @@ export const filterData = (data, filterBy, value) => {
   // cambios 
 }
 
+// Funcion para ordenar de manera ascendente y descendente
+export const sortData = (data, sortBy, sortOrder) => {
+  data.sort((a, b) => {
+    // usamos el metodo toLowerCase para convertir el nombre del Kdrama en minusculas
+    const valorA = a[sortBy].toLowerCase();
+    const valorB = b[sortBy].toLowerCase();
+
+    if (sortOrder === "asc") {
+      //console.log(valorA.localeCompare(valorB));
+      return valorA.localeCompare(valorB);
+
+    } else {
+      //console.log(valorB.localeCompare(valorA));
+      return valorB.localeCompare(valorA);
+    }
+  })
+  return data
+}
 
 // Funcion para ordenar de manera descendente
