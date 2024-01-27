@@ -28,7 +28,7 @@ selectSubtitle.addEventListener("change", (event) => {
   //llamo a la funcion de filtrar data
   const kdramasFiltrados = filterData(totalData, "totalSubtitulos", idiomaSeleccionado)
   rootElement.innerHTML = ""; // Limpiar el contenedor root
-  //aqui seria appenChild de los kdramasFiltrados ya no de totalData
+  //aqui seria appenChild de los kdramasFiltrados ya no de  como en el anterior totalData
   rootElement.appendChild(renderItems(kdramasFiltrados));
 })
 // aqui invocamos a las opciones para ordenar de asc y desc "DOM"
