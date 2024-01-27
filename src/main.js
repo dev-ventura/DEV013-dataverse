@@ -17,6 +17,7 @@ selectGenre.addEventListener("change", (event) => {
   //llamo a la funcion de filtrar data
   const generoFiltrado = filterData(data, "totalGenero", generoSeleccionado)
   totalData = [...generoFiltrado]
+  console.log(totalData);
   rootElement.innerHTML = "";
   rootElement.appendChild(renderItems(totalData));
 })
@@ -26,9 +27,9 @@ selectSubtitle.addEventListener("change", (event) => {
   const idiomaSeleccionado = event.target.value;
   //llamo a la funcion de filtrar data
   const kdramasFiltrados = filterData(totalData, "totalSubtitulos", idiomaSeleccionado)
-  totalData = [...kdramasFiltrados]
   rootElement.innerHTML = ""; // Limpiar el contenedor root
-  rootElement.appendChild(renderItems(totalData));
+  //aqui seria appenChild de los kdramasFiltrados ya no de totalData
+  rootElement.appendChild(renderItems(kdramasFiltrados));
 })
 // aqui invocamos a las opciones para ordenar de asc y desc "DOM"
 const order = document.querySelector("select[name=ordenar]");
