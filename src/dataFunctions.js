@@ -5,8 +5,7 @@ export const filterData = (data, filterBy, value) => {
   //console.log(kdramasFiltrados)
   return kdramasFiltrados;
   // cambios 
-}
-
+};
 // Funcion para ordenar de manera ascendente y descendente
 export const sortData = (data, sortBy, sortOrder) => {
   data.sort((a, b) => {
@@ -24,6 +23,12 @@ export const sortData = (data, sortBy, sortOrder) => {
     }
   })
   return data
-}
+};
+// Funcion para mostrar estadistica de capitulos 
+export const computeStats = (data) => {
+  const sumEpisodios = data.reduce((accumulator, currentValue) => accumulator + currentValue.facts.cantidadEpisodios, 0);
+  const sumTotalEpisodios = data.length;
 
-// Funcion para ordenar de manera descendente
+  const stats = Math.round( sumEpisodios/ sumTotalEpisodios)  ;
+  return `La cantidad de episodios promedio es ${stats}`;
+};
