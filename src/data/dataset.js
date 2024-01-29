@@ -1,4 +1,4 @@
-export default  [
+export default [
   {
     id: "crash-landing-on-you",
     name: "Crash landing on you",

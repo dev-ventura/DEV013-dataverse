@@ -33,7 +33,7 @@ h2 {
 }
 
 /* Para la parte del menu del filtrado, ordenado, estadisticas y limpiar*/
-div {
+.menu {
     margin-top: 25px;
 }
 

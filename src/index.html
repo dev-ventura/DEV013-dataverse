@@ -23,10 +23,10 @@
     <h1>K-DRAMA<br />VERSE</h1>
   </header>
   <main>
-    <div>
+    <nav class="menu">
       <!--Seccion genero-->
-      <label for="Genero">Genero: </label>
-      <select name="genero" data-testid="select-filter">
+      <label for="Genero1">Genero: </label>
+      <select id="Genero1" name="genero" data-testid="select-filter">
         <option value="a" selected disabled>seleccionar</option>
         <option value="Romance">Romance</option>
         <option value="Drama">Drama</option>
@@ -36,23 +36,23 @@
         <option value="Acción">Acción</option>
       </select>
       <!--Seccion Subtitulos-->
-      <label for="Subtitle">Subtítulo:</label>
-      <select name="subtitle" data-testid="select-filter" id="filter">
+      <label for="Subtitle1">Subtítulo:</label>
+      <select id= "Subtitle1" name="subtitle" >
         <option value="a" selected disabled>seleccionar</option>
         <option value="Español">Español</option>
         <option value="Inglés">Inglés</option>
         <option value="Coreano">Coreano</option>
       </select>
       <!--Seccion ordenar A-Z-->
-      <label for="Ordenar">Ordenar: </label>
-      <select name="ordenar" data-testid="select-sort">
+      <label for="Ordenar1">Ordenar: </label>
+      <select id="Ordenar1" name="ordenar" data-testid="select-sort">
         <option value="a" selected disabled>seleccionar</option>
         <option value="asc">A - Z</option>
         <option value="desc">Z - A</option>
       </select>
       <!--Seccion Estadisticas-->
-      <label for="Estadisticas">Estadística: </label>
-      <select name="estadisticas">
+      <label for="Estadisticas1">Estadística: </label>
+      <select id="Estadisticas1" name="estadisticas">
         <option value="a" selected disabled>seleccionar</option>
         <option value="numeroDeEpisodios">Numero de episodios</option>
       </select>
@@ -60,10 +60,13 @@
       <button data-testid="button-clear">
         <img id="logo-limpiar-filtros" src="images/filter.png"/>
         Limpiar filtros</button>-->
-    </div>
+    </nav>
+
     <h2>Listado de k-dramas</h2>
 
-    <div id="root"></div>
+    <section id="root">
+      
+    </section>
   </main>
 
   <footer>
