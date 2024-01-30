@@ -35,14 +35,6 @@
         <option value="Thriller">Thriller</option>
         <option value="Acción">Acción</option>
       </select>
-      <!--Seccion Subtitulos-->
-      <label for="Subtitle1">Subtítulo:</label>
-      <select id="Subtitle1" name="subtitle">
-        <option value="a" selected disabled>seleccionar</option>
-        <option value="Español">Español</option>
-        <option value="Inglés">Inglés</option>
-        <option value="Coreano">Coreano</option>
-      </select>
       <!--Seccion ordenar A-Z-->
       <label for="Ordenar1">Ordenar: </label>
       <select id="Ordenar1" name="ordenar" data-testid="select-sort">
@@ -52,13 +44,25 @@
       </select>
       <!--Seccion Estadisticas-->
       <label for="Estadisticas1">Estadística: </label>
-      <button id="Estadisticas1">Numero de Episodios</button>
-      <dialog id="dialog">
-        <h3>Estadisticas por numero de episodios</h2>
-      </dialog>
+      <select id="Estadisticas1" name="estadisticas">
+        <option value="a" selected disabled>seleccionar</option>
+        <option value="numeroDeEpisodios">Numero de episodios</option>
+      </select>
+      <!--Boton Limpiar filtros-->
+      <button name="button-clear" data-testid="button-clear">
+        <img class="logoLimpiar" src="images/filter.png" />
+        Limpiar filtros</button>
+      <!--Seccion Subtitulos (opcional)
+      <label for="Subtitle1">Subtítulo:</label>
+      <select id= "Subtitle1" name="subtitle" >
+        <option value="a" selected disabled>seleccionar</option>
+        <option value="Español">Español</option>
+        <option value="Inglés">Inglés</option>
+        <option value="Coreano">Coreano</option>
+      </select>-->
     </nav>
 
-    <h2>Descubre tus k-dramas</h2>
+    <h2>Listado de k-dramas</h2>
 
     <section id="root">
 
@@ -66,7 +70,7 @@
   </main>
 
   <footer>
-    CREADO POR ANTONE GONZALES &amp; MELANY VENTURA
+    CREADO POR <br /> ANTONE GONZALES &amp; MELANY VENTURA
   </footer>
 
   <script src="main.js" type="module"></script>

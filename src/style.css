@@ -1,4 +1,4 @@
-body {
+    body {
     background: rgba(0, 0, 0, 1);
     margin: 0;
 }
@@ -110,6 +110,13 @@ ul {
     border-radius: 5%;
 }
 
+.logoLimpiar {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 footer {
     display: flex;
     background: rgba(255, 225, 148, 1);
@@ -119,4 +126,14 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+
+[data-testid="button-clear"] {
+    background: rgba(255, 225, 148, 1); 
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10%;
+    margin-left: 40px;
+    color: rgba(30, 30, 30, 1);
+    padding: 0.3%;
 }

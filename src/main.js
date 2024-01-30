@@ -12,9 +12,11 @@ rootElement.appendChild(renderItems(data));
 
 // manipulacion del DOM
 const selectGenre = document.querySelector("select[name=genero]");
-const selectSubtitle = document.querySelector("select[name=subtitle]");
+//const selectSubtitle = document.querySelector("select[name=subtitle]");
 const order = document.querySelector("select[name=ordenar]");
 const estadistica = document.querySelector("select[name=estadisticas]");
+const limpiarFiltros = document.querySelector("button[name=button-clear]")
+;
 // para llamar al boton estadistica
 const botonEstadistica = document.querySelector("#Estadisticas1");
 const dialog = document.getElementById("dialog");
@@ -33,6 +35,7 @@ botonEstadistica.addEventListener('click', (event) => {
 });
 
 
+
 // filtrar por genero
 selectGenre.addEventListener("change", (event) => {
   // creamos la variable generoSeleccionado que contiene el valor de los generos
@@ -43,19 +46,6 @@ selectGenre.addEventListener("change", (event) => {
   totalData = [...generoFiltrado]
   //console.log(totalData);
   rootElement.innerHTML = "";
-  rootElement.appendChild(renderItems(totalData));
-})
-
-// filtrar por subtitulo
-selectSubtitle.addEventListener("change", (event) => {
-  // creamos la variable idiomaSeleccionado que contiene el valor de los subtitulos(idioma)
-  const idiomaSeleccionado = event.target.value;
-  //llamo a la funcion de filtrar data
-  const kdramasFiltrados = filterData(totalData, "totalSubtitulos", idiomaSeleccionado)
-  totalData = [...kdramasFiltrados]
-  // Limpiar el contenedor root
-  rootElement.innerHTML = "";
-  //aqui seria appenChild de los kdramasFiltrados 
   rootElement.appendChild(renderItems(totalData));
 })
 
@@ -83,7 +73,28 @@ order.addEventListener("change", (event) => {
 
 //Aqui vamos a seleccionar para mostrar estadistica(prueba y error)
 estadistica.addEventListener("change", (event) => {
-  //console.log(estadisticaSeleccionada);
+  const estadisticaSeleccionada = event.target.value;
+  console.log(estadisticaSeleccionada);
   const stats1 = computeStats(totalData)
   console.log(stats1);
 });
+
+// aqui limpiamos todos los filtros
+limpiarFiltros.addEventListener("click", function limpiar() {
+  rootElement.innerHTML = "";
+  rootElement.appendChild(renderItems(data));
+});
+
+// filtrar por subtitulo (opcional)
+// selectSubtitle.addEventListener("change", (event) => {
+//   //creamos la variable idiomaSeleccionado que contiene el valor de los subtitulos(idioma)
+//   const idiomaSeleccionado = event.target.value;
+//   //llamo a la funcion de filtrar data
+//   const kdramasFiltrados = filterData(totalData, "totalSubtitulos", idiomaSeleccionado)
+//   //totalData = [...kdramasFiltrados]
+//   // Limpiar el contenedor root
+//   rootElement.innerHTML = "";
+//   //aqui seria appenChild de los kdramasFiltrados
+//   rootElement.appendChild(renderItems(kdramasFiltrados));
+
+// });

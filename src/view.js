@@ -6,19 +6,25 @@ export const renderItems = (data) => {
     // Creamos un objeto contenedor para cada item (tarjeta)
     const itemContainer = document.createElement('li');
     const imageUrl = document.createElement('img');
-    const descriptionTotal = document.createElement('p');
     const nameKdrama = document.createElement('h3');
+    const descriptionTotal = document.createElement('p');
 
     itemContainer.setAttribute('itemscope', '');
     itemContainer.setAttribute('itemtype', 'kdramas');
     itemContainer.setAttribute('class', 'lista');
     imageUrl.src = item.imageUrl;
+    nameKdrama.setAttribute('itemprop', 'name');
     descriptionTotal.setAttribute('itemprop', 'descripcionTotal');
-    nameKdrama.setAttribute('itemprop', 'name')
-    descriptionTotal.innerHTML = `${item.facts.cantidadEpisodios} Ep. | ${item.facts.totalGenero} | Sub. ${item.facts.totalSubtitulos}`;
     nameKdrama.innerHTML = item.name;
+<<<<<<< HEAD
+    descriptionTotal.innerHTML = `${item.facts.cantidadEpisodios} Ep. | ${item.facts.totalGenero} | Sub. ${item.facts.totalSubtitulos}`;
+    
+
+    itemContainer.append(imageUrl, nameKdrama, descriptionTotal);
+=======
 
     itemContainer.append(imageUrl, descriptionTotal, nameKdrama);
+>>>>>>> 3e2ce27e01f859c460917dc35e91358387289af0
     container.appendChild(itemContainer);
   });
   // Devolver el contenedor principal con todos los elementos renderizados
