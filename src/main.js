@@ -71,14 +71,6 @@ order.addEventListener("change", (event) => {
   }
 });
 
-//Aqui vamos a seleccionar para mostrar estadistica(prueba y error)
-estadistica.addEventListener("change", (event) => {
-  const estadisticaSeleccionada = event.target.value;
-  console.log(estadisticaSeleccionada);
-  const stats1 = computeStats(totalData)
-  console.log(stats1);
-});
-
 // aqui limpiamos todos los filtros
 limpiarFiltros.addEventListener("click", function limpiar() {
   rootElement.innerHTML = "";
