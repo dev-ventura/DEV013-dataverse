@@ -16,10 +16,15 @@ export const renderItems = (data) => {
     nameKdrama.setAttribute('itemprop', 'name');
     descriptionTotal.setAttribute('itemprop', 'descripcionTotal');
     nameKdrama.innerHTML = item.name;
+<<<<<<< HEAD
     descriptionTotal.innerHTML = `${item.facts.cantidadEpisodios} Ep. | ${item.facts.totalGenero} | Sub. ${item.facts.totalSubtitulos}`;
     
 
     itemContainer.append(imageUrl, nameKdrama, descriptionTotal);
+=======
+
+    itemContainer.append(imageUrl, descriptionTotal, nameKdrama);
+>>>>>>> 3e2ce27e01f859c460917dc35e91358387289af0
     container.appendChild(itemContainer);
   });
   // Devolver el contenedor principal con todos los elementos renderizados

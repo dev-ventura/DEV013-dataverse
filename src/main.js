@@ -16,6 +16,24 @@ const selectGenre = document.querySelector("select[name=genero]");
 const order = document.querySelector("select[name=ordenar]");
 const estadistica = document.querySelector("select[name=estadisticas]");
 const limpiarFiltros = document.querySelector("button[name=button-clear]")
+;
+// para llamar al boton estadistica
+const botonEstadistica = document.querySelector("#Estadisticas1");
+const dialog = document.getElementById("dialog");
+
+//para el boton estadisticas
+botonEstadistica.addEventListener('click', (event) => {
+  dialog.showModal();
+  //obtener el elemento mas de las estadisticas
+  const resultados = computeStats(data);
+  dialog.innerHTML += "Con 16 episodios: " + resultados["16 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 20 episodios: " + resultados["20 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 21 episodios: " + resultados["21 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 24 episodios: " + resultados["24 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 32 episodios: " + resultados["32 Episodios"] + " k-dramas" + "<br>";
+  //console.log(resultados);
+});
+
 
 
 // filtrar por genero
@@ -58,7 +76,6 @@ estadistica.addEventListener("change", (event) => {
   const estadisticaSeleccionada = event.target.value;
   console.log(estadisticaSeleccionada);
   const stats1 = computeStats(totalData)
-  //return (stats1);
   console.log(stats1);
 });
 
@@ -77,7 +94,7 @@ limpiarFiltros.addEventListener("click", function limpiar() {
 //   //totalData = [...kdramasFiltrados]
 //   // Limpiar el contenedor root
 //   rootElement.innerHTML = "";
-//   //aqui seria appenChild de los kdramasFiltrados 
+//   //aqui seria appenChild de los kdramasFiltrados
 //   rootElement.appendChild(renderItems(kdramasFiltrados));
 
 // });
