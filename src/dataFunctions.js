@@ -26,27 +26,27 @@ export const sortData = (data, sortBy, sortOrder) => {
 };
 // Funcion para mostrar estadistica de cantidad de k-dramas por capitulos 
 export const computeStats = (data) => {
-  const estadisticas = data.reduce ((acumulador, item) => {
+  const estadisticas = data.reduce((acumulador, item) => {
     // si cantidadEpisodios es igual a los parametros dados entonces el acumulador sube a +1 en cada propiedad
-    if (item.facts.cantidadEpisodios === 16){
-       acumulador['16 Episodios'] += 1;
-    } else if (item.facts.cantidadEpisodios === 20){
-       acumulador['20 Episodios'] += 1;
+    if (item.facts.cantidadEpisodios === 16) {
+      acumulador['16 Episodios'] += 1;
+    } else if (item.facts.cantidadEpisodios === 20) {
+      acumulador['20 Episodios'] += 1;
     } else if (item.facts.cantidadEpisodios === 21) {
-       acumulador['21 Episodios'] += 1;
+      acumulador['21 Episodios'] += 1;
     } else if (item.facts.cantidadEpisodios === 24) {
-       acumulador['24 Episodios'] += 1;
+      acumulador['24 Episodios'] += 1;
     } else if (item.facts.cantidadEpisodios === 32) {
-       acumulador['32 Episodios'] += 1;
+      acumulador['32 Episodios'] += 1;
     }
     // retorna el acumular mostrando el total en cada propiedad de episodios
-    return acumulador; 
+    return acumulador;
   }, {
-    '16 Episodios' : 0,
-    '20 Episodios' : 0,
-    '21 Episodios' : 0,
-    '24 Episodios' : 0,
-    '32 Episodios' : 0,
+    '16 Episodios': 0,
+    '20 Episodios': 0,
+    '21 Episodios': 0,
+    '24 Episodios': 0,
+    '32 Episodios': 0,
   });
   return estadisticas;
 };

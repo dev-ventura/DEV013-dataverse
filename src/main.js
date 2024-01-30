@@ -14,7 +14,24 @@ rootElement.appendChild(renderItems(data));
 const selectGenre = document.querySelector("select[name=genero]");
 const selectSubtitle = document.querySelector("select[name=subtitle]");
 const order = document.querySelector("select[name=ordenar]");
-const estadistica = document.querySelector("select[name=estadisticas]")
+const estadistica = document.querySelector("select[name=estadisticas]");
+// para llamar al boton estadistica
+const botonEstadistica = document.querySelector("#Estadisticas1");
+const dialog = document.getElementById("dialog");
+
+//para el boton estadisticas
+botonEstadistica.addEventListener('click', (event) => {
+  dialog.showModal();
+  //obtener el elemento mas de las estadisticas
+  const resultados = computeStats(data);
+  dialog.innerHTML += "Con 16 episodios: " + resultados["16 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 20 episodios: " + resultados["20 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 21 episodios: " + resultados["21 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 24 episodios: " + resultados["24 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "Con 32 episodios: " + resultados["32 Episodios"] + " k-dramas" + "<br>";
+  //console.log(resultados);
+});
+
 
 // filtrar por genero
 selectGenre.addEventListener("change", (event) => {
@@ -66,9 +83,7 @@ order.addEventListener("change", (event) => {
 
 //Aqui vamos a seleccionar para mostrar estadistica(prueba y error)
 estadistica.addEventListener("change", (event) => {
-  const estadisticaSeleccionada = event.target.value;
   //console.log(estadisticaSeleccionada);
   const stats1 = computeStats(totalData)
-  //return (stats1);
   console.log(stats1);
 });
