@@ -35,15 +35,7 @@
         <option value="Thriller">Thriller</option>
         <option value="Acción">Acción</option>
       </select>
-      <!--Seccion Subtitulos-->
-      <label for="Subtitle1">Subtítulo:</label>
-      <select id= "Subtitle1" name="subtitle" >
-        <option value="a" selected disabled>seleccionar</option>
-        <option value="Español">Español</option>
-        <option value="Inglés">Inglés</option>
-        <option value="Coreano">Coreano</option>
-      </select>
-      <!--Seccion ordenar A-Z-->
+            <!--Seccion ordenar A-Z-->
       <label for="Ordenar1">Ordenar: </label>
       <select id="Ordenar1" name="ordenar" data-testid="select-sort">
         <option value="a" selected disabled>seleccionar</option>
@@ -56,10 +48,18 @@
         <option value="a" selected disabled>seleccionar</option>
         <option value="numeroDeEpisodios">Numero de episodios</option>
       </select>
-      <!--Boton Limpiar filtros
-      <button data-testid="button-clear">
-        <img id="logo-limpiar-filtros" src="images/filter.png"/>
-        Limpiar filtros</button>-->
+      <!--Boton Limpiar filtros-->
+      <button name="button-clear" data-testid="button-clear">
+        <img class="logoLimpiar" src="images/filter.png"/>
+        Limpiar filtros</button>
+        <!--Seccion Subtitulos (opcional)
+      <label for="Subtitle1">Subtítulo:</label>
+      <select id= "Subtitle1" name="subtitle" >
+        <option value="a" selected disabled>seleccionar</option>
+        <option value="Español">Español</option>
+        <option value="Inglés">Inglés</option>
+        <option value="Coreano">Coreano</option>
+      </select>-->
     </nav>
 
     <h2>Listado de k-dramas</h2>
