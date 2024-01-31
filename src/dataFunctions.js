@@ -27,7 +27,7 @@ export const sortData = (data, sortBy, sortOrder) => {
 // Funcion para mostrar estadistica de cantidad de k-dramas por capitulos 
 export const computeStats = (data) => {
   const estadisticas = data.reduce((acumulador, item) => {
-    // si cantidadEpisodios es igual a los parametros dados entonces el acumulador sube a +1 en cada propiedad
+    // sacar el porcentaje
     if (item.facts.cantidadEpisodios === 16) {
       acumulador['16 Episodios'] += 1;
     } else if (item.facts.cantidadEpisodios === 20) {

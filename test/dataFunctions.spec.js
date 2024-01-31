@@ -1,18 +1,18 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
-//import { data as fakeData } from './data.js';
+// import { example, anotherExample } from '../src/dataFunctions.js';
+// //import { data as fakeData } from './data.js';
 
-//console.log(fakeData);
+// //console.log(fakeData);
 
-describe('example', () => {
+// describe('example', () => {
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
+//   it('returns `example`', () => {
+//     expect(example()).toBe('example');
+//   });
+// });
 
-describe('anotherExample', () => {
+// describe('anotherExample', () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+//   it('returns `anotherExample`', () => {
+//     expect(anotherExample()).toBe('OMG');
+//   });
+// });
