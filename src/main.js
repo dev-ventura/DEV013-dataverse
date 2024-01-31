@@ -24,13 +24,15 @@ const dialog = document.getElementById("dialog");
 //para el boton estadisticas
 botonEstadistica.addEventListener('click', () => {
   dialog.showModal();
-  //obtener el elemento mas de las estadisticas
+  // aqui alamacenamos la cantidad de kdramas
+  const totalKdramas = data.length;  
+  //mostrar los porcentajes en el cuadro de dialogo 
   const resultados = computeStats(data);
-  dialog.innerHTML += "Con 16 episodios: " + resultados["16 Episodios"] + " k-dramas" + "<br>";
-  dialog.innerHTML += "Con 20 episodios: " + resultados["20 Episodios"] + " k-dramas" + "<br>";
-  dialog.innerHTML += "Con 21 episodios: " + resultados["21 Episodios"] + " k-dramas" + "<br>";
-  dialog.innerHTML += "Con 24 episodios: " + resultados["24 Episodios"] + " k-dramas" + "<br>";
-  dialog.innerHTML += "Con 32 episodios: " + resultados["32 Episodios"] + " k-dramas" + "<br>";
+  dialog.innerHTML += "El " + (resultados["16 Episodios"]/ totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 16 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["20 Episodios"]/ totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 20 episodios"+ "<br>";
+  dialog.innerHTML += "El " + (resultados["21 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 21 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["24 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 24 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["32 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 32 episodios" + "<br>";
   //console.log(resultados);
 });
 // para cerrar la ventana emergente 
@@ -39,8 +41,6 @@ botonEstadistica.addEventListener('click', () => {
   //text.innerHTML += "";
   //dialog.close();
 //});
-
-
 
 
 // filtrar por genero
