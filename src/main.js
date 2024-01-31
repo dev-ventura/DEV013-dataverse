@@ -14,15 +14,15 @@ rootElement.appendChild(renderItems(data));
 const selectGenre = document.querySelector("select[name=genero]");
 //const selectSubtitle = document.querySelector("select[name=subtitle]");
 const order = document.querySelector("select[name=ordenar]");
-const estadistica = document.querySelector("select[name=estadisticas]");
 const limpiarFiltros = document.querySelector("button[name=button-clear]")
-;
+  ;
 // para llamar al boton estadistica
 const botonEstadistica = document.querySelector("#Estadisticas1");
 const dialog = document.getElementById("dialog");
+//const cerrar = document.getElementById("cierra-pantalla")
 
 //para el boton estadisticas
-botonEstadistica.addEventListener('click', (event) => {
+botonEstadistica.addEventListener('click', () => {
   dialog.showModal();
   //obtener el elemento mas de las estadisticas
   const resultados = computeStats(data);
@@ -33,6 +33,13 @@ botonEstadistica.addEventListener('click', (event) => {
   dialog.innerHTML += "Con 32 episodios: " + resultados["32 Episodios"] + " k-dramas" + "<br>";
   //console.log(resultados);
 });
+// para cerrar la ventana emergente 
+//dialog.addEventListener('close', (event) => {
+  //console.log('esta funcionando');
+  //text.innerHTML += "";
+  //dialog.close();
+//});
+
 
 
 
@@ -52,7 +59,7 @@ selectGenre.addEventListener("change", (event) => {
 // ordenar de manera ascedente y descendente
 order.addEventListener("change", (event) => {
   // creamos la variable ordenSeleccionado que contiene el valor al hacer click (A-Z) (Z-A)
-  console.log(totalData);
+  //console.log(totalData);
   const ordenSeleccionado = event.target.value;
   if (ordenSeleccionado === "asc") {
     // Ordenar por nombre de manera ascendente

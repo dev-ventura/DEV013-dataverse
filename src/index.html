@@ -44,11 +44,12 @@
       </select>
       <!--Seccion Estadisticas-->
       <label for="Estadisticas1">Estadística: </label>
-      <button id="Estadisticas1">Numero de Episodios</button>
+      <button id="Estadisticas1">Estadisticas</button>
       <dialog id="dialog">
-        <h3>Estadisticas por numero de episodios</h3>
+        <button id="submit" aria-label="close" formmethod="dialog" formnovalidate>x</button>
+        <h3 id="texto-estadistica">Estadísticas <br />por número de episodios</h3><br>
+        <img class="logo-kdrama" src="images/kpop.png"><br>
       </dialog>
-      </select>
       <!--Boton Limpiar filtros-->
       <button name="button-clear" data-testid="button-clear">
         <img class="logoLimpiar" src="images/filter.png" />
@@ -66,12 +67,15 @@
     <h2>Listado de k-dramas</h2>
 
     <section id="root">
-
+      <ul>
+        <li class="data-root" itemscope itemtype="k-dramas">
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    CREADO POR <br /> ANTONE GONZALES &amp; MELANY VENTURA
+        CREADO POR ANTONE GONZALES &amp; MELANY VENTURA
   </footer>
 
   <script src="main.js" type="module"></script>
