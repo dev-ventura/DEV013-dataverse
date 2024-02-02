@@ -17,31 +17,33 @@ const order = document.querySelector("select[name=ordenar]");
 const limpiarFiltros = document.querySelector("button[name=button-clear]")
   ;
 // para llamar al boton estadistica
-const botonEstadistica = document.querySelector("#Estadisticas1");
-const dialog = document.getElementById("dialog");
-//const cerrar = document.getElementById("cierra-pantalla")
+const botonEstadistica = document.querySelector("#Estadisticas1"); //boton abrir estadisticas
+const modal = document.querySelector("#modal");
+const closeModal = document.querySelector("#close"); //para cerrar la pantalla emergente
 
 //para el boton estadisticas
-botonEstadistica.addEventListener('click', () => {
-  dialog.showModal();
-  // aqui alamacenamos la cantidad de kdramas
-  const totalKdramas = data.length;  
-  //mostrar los porcentajes en el cuadro de dialogo 
+botonEstadistica.addEventListener('click', function (event) {
+  modal.style.display = "flex"; //se muestra la pantalla emergente
+  // aqui alamacenamos la cantidad de kdramas, los resultados y el contenido de texto 
+  const totalKdramas = data.length;
   const resultados = computeStats(data);
-  dialog.innerHTML += "El " + (resultados["16 Episodios"]/ totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 16 episodios" + "<br>";
-  dialog.innerHTML += "El " + (resultados["20 Episodios"]/ totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 20 episodios"+ "<br>";
-  dialog.innerHTML += "El " + (resultados["21 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 21 episodios" + "<br>";
-  dialog.innerHTML += "El " + (resultados["24 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 24 episodios" + "<br>";
-  dialog.innerHTML += "El " + (resultados["32 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 32 episodios" + "<br>";
-  //console.log(resultados);
+  const pageText = document.getElementById("page");
+  if (event.currentTarget === botonEstadistica) {
+    //mostrar los porcentajes en el cuadro de dialogo 
+    pageText.innerHTML = "";
+    pageText.innerHTML += "El " + (resultados["16 Episodios"] / totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 16 episodios" + "<br>";
+    pageText.innerHTML += "El " + (resultados["20 Episodios"] / totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 20 episodios" + "<br>";
+    pageText.innerHTML += "El " + (resultados["21 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 21 episodios" + "<br>";
+    pageText.innerHTML += "El " + (resultados["24 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 24 episodios" + "<br>";
+    pageText.innerHTML += "El " + (resultados["32 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 32 episodios" + "<br>";
+    //pageText.log(resultados);
+  }
 });
-// para cerrar la ventana emergente 
-//dialog.addEventListener('close', (event) => {
-  //console.log('esta funcionando');
-  //text.innerHTML += "";
-  //dialog.close();
-//});
 
+// para cerrar la ventana emergente 
+closeModal.addEventListener("click", () =>{
+  modal.style.display = "none";
+});
 
 // filtrar por genero
 selectGenre.addEventListener("change", (event) => {
