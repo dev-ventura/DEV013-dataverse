@@ -25,13 +25,6 @@ header {
   margin-top: 15px;
 }
 
-header {
-  display: flex;
-  background: linear-gradient(180deg, rgba(184, 223, 216, 1), rgba(232, 246, 239, 1));
-  grid-gap: 0.2%;
-  padding: 0.5%;
-}
-
 h1 {
   font-size: 15px;
   font-family: 'Bungee', sans-serif;
@@ -90,38 +83,6 @@ select,
 }
 
 /* Para la pantalla emergente estadisticas */
-dialog{
-  width: 300px;
-  height: 300px;
-  background-color: rgba(232, 246, 239, 1);
-  border-radius: 10%;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding-top: 20px;
-}
-
-[aria-label="cerrar"]{
-  width: 35px;
-  height: 35px;
-  color: rgba(76, 76, 109, 1);
-  background-color:rgba(255, 225, 148, 1);
-  font-family: 'Roboto', sans-serif;
-  font-size: 25px;
-  appearance: none;
-  float: right;
-  border: 1px solid;
-  border-radius: 25%;
-}
-
-#texto-estadistica{
-  font-size: 20px;
-  margin-top: 40px ;
-}
-.logo-kdrama{
-  width: 50px;
-  height: 50px;
-  align-content: center;
-}
 #Estadisticas1 {
   width: 250px;
   height: 40px;
@@ -199,26 +160,6 @@ dialog{
   align-items: center;
 }
 
-/* Para el boton limpiar filtros */
-.logoLimpiar {
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-[data-testid="button-clear"] {
-  width: 200px;
-  height: 40px;
-  background: rgba(255, 225, 148, 1);
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  border-radius: 10px;
-  margin-left: 40px;
-  color: rgba(30, 30, 30, 1);
-  padding: 0px;
-  align-items: center;
-}
 /*para las tarjetas (items)*/
 .data-root {
   margin: center;
@@ -257,17 +198,12 @@ ul {
 
 .lista {
   background: rgba(184, 223, 216, 1);
-  width: 320px;
-  height: 250px;
+  width: 400px;
+  height: 280px;
   border-radius: 5%;
+  padding: 5px;
 }
 
-.logoLimpiar {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
 
 footer {
   display: flex;
@@ -280,12 +216,42 @@ footer {
   font-family: 'Bungee', sans-serif;
 }
 
-[data-testid="button-clear"] {
-  background: rgba(255, 225, 148, 1);
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  border-radius: 10%;
-  margin-left: 40px;
-  color: rgba(30, 30, 30, 1);
-  padding: 0.3%;
+
+/* diseño para telefonos*/
+@media (max-width: 600px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  header {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .menu {
+    margin-top: 1.5rem;
+    flex: 1;
+    display: block;
+    border: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 7px;
+    font-family: 'Bungee', sans-serif;
+    color: rgba(76, 76, 109, 1);
+    margin-top: 20px;
+  }
+  .lista {
+    background: rgba(184, 223, 216, 1);
+    width: 380px;
+    height: 280px;
+    border-radius: 4%;
+    padding: px;
+  }
 }
