@@ -66,7 +66,7 @@ export default [
   },
   {
     id: "goblin",
-    name: "Goblin: The Lonely and Great God",
+    name: "Goblin",
     shortDescription: "Un ser inmortal y su conexión con una joven. Fantasía y romance.",
     description: "Goblin: The Lonely and Great God, es un kdrama que fusiona magia, romance y fantasía. La historia sigue a Kim Shin, un ser inmortal castigado, y Ji Eun-tak, una joven con el poder de ver fantasmas. Juntos, enfrentan desafíos cósmicos y exploran el significado de la vida y la muerte. Con una mezcla de emotividad y comedia, la serie destaca la conexión entre los personajes y la búsqueda del propósito. La interpretación magistral de Gong Yoo y Kim Go-eun, junto con una cinematografía deslumbrante, contribuyen al atractivo de este drama que ha ganado popularidad a nivel mundial.",
     imageUrl: "https://i.pinimg.com/564x/df/1a/4b/df1a4b60751a97b6dfcc08f3270882f3.jpg",
@@ -235,7 +235,7 @@ export default [
   },
   {
     id: "moon-lovers-scarlet-heart-ryeo",
-    name: "Moon Lovers: Scarlet Heart Ryeo",
+    name: "Moon Lovers",
     shortDescription: "Un emocionante drama coreano que mezcla romance y fantasía, ambientado en la dinastía Goryeo.",
     description: "Un apasionante drama surcoreano que fusiona romance histórico y fantasía. La trama sigue a una mujer del siglo XXI, interpretada por IU, quien viaja en el tiempo y se encuentra en la dinastía Goryeo. Atrapada en una compleja red de intrigas políticas y amorosas, se ve envuelta en los conflictos de varios príncipes, interpretados por estrellas como Lee Joon-gi y Kang Ha-neul. Con giros emocionantes, intensas relaciones y momentos históricos, el drama destaca por su narrativa cautivadora y la actuación convincente del elenco, llevando a los espectadores a un viaje inolvidable entre el pasado y el presente.",
     imageUrl: "https://i.pinimg.com/564x/c3/9d/ec/c39dec2add7e91d7430397d3fbf48ee7.jpg",

@@ -12,11 +12,37 @@ rootElement.appendChild(renderItems(data));
 
 // manipulacion del DOM
 const selectGenre = document.querySelector("select[name=genero]");
-//const selectSubtitle = document.querySelector("select[name=subtitle]");
 const order = document.querySelector("select[name=ordenar]");
-const limpiarFiltros = document.querySelector("button[name=button-clear]")
-  ;
+const limpiarFiltros = document.querySelector("button[name=button-clear]");
 // para llamar al boton estadistica
+<<<<<<< HEAD
+const botonEstadistica = document.querySelector("#Estadisticas1");
+const dialog = document.getElementById("dialog");
+//const cerrar = document.getElementById("cierra-pantalla")
+//const selectSubtitle = document.querySelector("select[name=subtitle]");
+
+//para el boton estadisticas
+botonEstadistica.addEventListener('click', () => {
+  dialog.showModal();
+  // aqui alamacenamos la cantidad de kdramas
+  const totalKdramas = data.length;
+  //mostrar los porcentajes en el cuadro de dialogo 
+  const resultados = computeStats(data);
+  dialog.innerHTML += "El " + (resultados["16 Episodios"] / totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 16 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["20 Episodios"] / totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 20 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["21 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 21 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["24 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 24 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["32 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 32 episodios" + "<br>";
+  //console.log(resultados);
+});
+//para cerrar la ventana emergente 
+//dialog.addEventListener('close', (event) => {
+//console.log('esta funcionando');
+//text.innerHTML += "";
+//dialog.close();
+//});
+
+=======
 const botonEstadistica = document.querySelector("#Estadisticas1"); //boton abrir estadisticas
 const modal = document.querySelector("#modal");
 const closeModal = document.querySelector("#close"); //para cerrar la pantalla emergente
@@ -45,6 +71,7 @@ closeModal.addEventListener("click", () =>{
   modal.style.display = "none";
 });
 
+>>>>>>> a6cf9076e5bcd32969c4ed010c4fc0d0eb4c8c8e
 // filtrar por genero
 selectGenre.addEventListener("change", (event) => {
   // creamos la variable generoSeleccionado que contiene el valor de los generos
