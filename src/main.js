@@ -12,36 +12,34 @@ rootElement.appendChild(renderItems(data));
 
 // manipulacion del DOM
 const selectGenre = document.querySelector("select[name=genero]");
-//const selectSubtitle = document.querySelector("select[name=subtitle]");
 const order = document.querySelector("select[name=ordenar]");
-const limpiarFiltros = document.querySelector("button[name=button-clear]")
-  ;
+const limpiarFiltros = document.querySelector("button[name=button-clear]");
 // para llamar al boton estadistica
 const botonEstadistica = document.querySelector("#Estadisticas1");
 const dialog = document.getElementById("dialog");
 //const cerrar = document.getElementById("cierra-pantalla")
+//const selectSubtitle = document.querySelector("select[name=subtitle]");
 
 //para el boton estadisticas
 botonEstadistica.addEventListener('click', () => {
   dialog.showModal();
   // aqui alamacenamos la cantidad de kdramas
-  const totalKdramas = data.length;  
+  const totalKdramas = data.length;
   //mostrar los porcentajes en el cuadro de dialogo 
   const resultados = computeStats(data);
-  dialog.innerHTML += "El " + (resultados["16 Episodios"]/ totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 16 episodios" + "<br>";
-  dialog.innerHTML += "El " + (resultados["20 Episodios"]/ totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 20 episodios"+ "<br>";
-  dialog.innerHTML += "El " + (resultados["21 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 21 episodios" + "<br>";
-  dialog.innerHTML += "El " + (resultados["24 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 24 episodios" + "<br>";
-  dialog.innerHTML += "El " + (resultados["32 Episodios"]/ totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 32 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["16 Episodios"] / totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 16 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["20 Episodios"] / totalKdramas * 100).toFixed(2) + "% de k-dramas tiene 20 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["21 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 21 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["24 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 24 episodios" + "<br>";
+  dialog.innerHTML += "El " + (resultados["32 Episodios"] / totalKdramas * 100).toFixed(2) + " % de k-dramas tiene 32 episodios" + "<br>";
   //console.log(resultados);
 });
-// para cerrar la ventana emergente 
+//para cerrar la ventana emergente 
 //dialog.addEventListener('close', (event) => {
-  //console.log('esta funcionando');
-  //text.innerHTML += "";
-  //dialog.close();
+//console.log('esta funcionando');
+//text.innerHTML += "";
+//dialog.close();
 //});
-
 
 // filtrar por genero
 selectGenre.addEventListener("change", (event) => {

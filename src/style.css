@@ -1,13 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
 body {
   background: rgba(0, 0, 0, 1);
   margin: 0;
 }
+
 /* Para estilos del encabezado */
 header {
   display: flex;
   background: rgba(184, 223, 216, 1);
   grid-gap: 0.2%;
-  padding: 0.5%;
+  padding: 20px;
 }
 
 .logo {
@@ -34,29 +41,49 @@ h2 {
 
 /* Para la parte del menu del filtrado, ordenado, estadisticas y limpiar*/
 .menu {
-  margin-top: 25px;
+  margin-top: 1.5rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 label {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   color: rgba(255, 225, 148, 1);
   margin-left: 40px;
 }
 
-select {
+select,
+#Estadisticas1,
+[data-testid="button-clear"] {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   background-color: rgba(184, 223, 216, 1);
-  border-radius: 10%;
-  margin-left: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
   color: rgba(30, 30, 30, 1);
   padding: 0.5%;
+  cursor: pointer;
+  text-align: center;
+}
+
+[data-testid="button-clear"] {
+  background: rgba(255, 225, 148, 1);
+  margin-left: 40px;
+}
+
+.logoLimpiar {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 8px;
 }
 
 /* Para la pantalla emergente estadisticas */
-dialog{
-  width: 300px;
+dialog {
+  width: 400px;
   height: 300px;
   background-color: rgba(232, 246, 239, 1);
   border-radius: 10%;
@@ -65,38 +92,29 @@ dialog{
   padding-top: 20px;
 }
 
-[aria-label="cerrar"]{
+[aria-label="cerrar"] {
   width: 35px;
   height: 35px;
   color: rgba(76, 76, 109, 1);
-  background-color:rgba(255, 225, 148, 1);
+  background-color: rgba(255, 225, 148, 1);
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   appearance: none;
   float: right;
   border: 1px solid;
   border-radius: 25%;
+  
 }
-
-#texto-estadistica{
+/* 
+#texto-estadistica {
   font-size: 20px;
-  margin-top: 40px ;
-}
-.logo-kdrama{
+  margin-top: 40px;
+} */
+
+.logo-kdrama {
   width: 50px;
   height: 50px;
   align-content: center;
-}
-#Estadisticas1 {
-  width: 250px;
-  height: 40px;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  background-color: rgba(184, 223, 216, 1);
-  border-radius: 10%;
-  margin-left: 5px;
-  color: rgba(30, 30, 30, 1);
-  padding: 0.5%;
 }
 
 .ventana-contenedor {
@@ -104,55 +122,47 @@ dialog{
 }
 
 /*para las tarjetas (items)*/
-.data-root{
+.data-root {
   margin: center;
 }
 
 img {
-  width: 320px;
-  height: 180px;
+  width: 100%;
+  height: 200px;
   margin: 0px;
   border-radius: 5% 5% 0% 0%;
 }
 
 p {
-  margin: 0px;
   margin-left: 15px;
-  margin-top: 5%;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 1.2rem;
   color: rgba(76, 76, 109, 1);
 }
 
 h3 {
-  margin: 0px;
+  margin: 0.4rem;
   margin-left: 15px;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
   color: rgba(30, 30, 30, 1);
 }
 
 ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  margin: 0px;
+  gap: 30px;
+  padding: 10px;
+  /*Los items tienen el mismo espacio a su alrededor*/
+  justify-content: space-around;
 }
 
 .lista {
-  display: flex;
-  margin: 0px;
-  flex-direction: column;
   background: rgba(184, 223, 216, 1);
-  width: 320px;
-  height: 250px;
+  width: 400px;
+  height: 280px;
   border-radius: 5%;
-}
-
-.logoLimpiar {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-  margin-top: 10px;
+  padding: 5px;
 }
 
 footer {
@@ -160,19 +170,48 @@ footer {
   background: rgba(255, 225, 148, 1);
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 1.5rem;
   color: rgba(30, 30, 30, 1);
   font-size: 15px;
   font-family: 'Bungee', sans-serif;
 
 }
 
-[data-testid="button-clear"] {
-  background: rgba(255, 225, 148, 1);
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  border-radius: 10%;
-  margin-left: 40px;
-  color: rgba(30, 30, 30, 1);
-  padding: 0.3%;
+/* diseño para telefonos*/
+@media (max-width: 600px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  header {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .menu {
+    margin-top: 1.5rem;
+    flex: 1;
+    display: block;
+    border: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 7px;
+    font-family: 'Bungee', sans-serif;
+    color: rgba(76, 76, 109, 1);
+    margin-top: 20px;
+  }
+  .lista {
+    background: rgba(184, 223, 216, 1);
+    width: 380px;
+    height: 280px;
+    border-radius: 4%;
+    padding: px;
+  }
 }
