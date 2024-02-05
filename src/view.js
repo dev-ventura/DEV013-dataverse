@@ -10,6 +10,7 @@ export const renderItems = (data) => {
     const descriptionTotal = document.createElement('p');
 
     itemContainer.setAttribute('itemscope', '');
+    itemContainer.setAttribute('itemprop','ordenar');
     itemContainer.setAttribute('itemtype', 'kdramas');
     itemContainer.setAttribute('class', 'lista');
     imageUrl.src = item.imageUrl;

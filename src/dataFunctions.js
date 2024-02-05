@@ -15,14 +15,16 @@ export const sortData = (data, sortBy, sortOrder) => {
 
     if (sortOrder === "asc") {
       //console.log(valorA.localeCompare(valorB));
-      return valorA.localeCompare(valorB);
+      const totalAsc = valorA.localeCompare(valorB);
+      return totalAsc;
 
     } else {
       //console.log(valorB.localeCompare(valorA));
-      return valorB.localeCompare(valorA);
+      const totalDesc = valorB.localeCompare(valorA);
+      return totalDesc;
     }
   })
-  return data
+  return data;
 };
 // Funcion para mostrar estadistica de cantidad de k-dramas por capitulos 
 export const computeStats = (data) => {
