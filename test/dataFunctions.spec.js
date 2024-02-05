@@ -1,6 +1,5 @@
-import { sortData } from '../src/dataFunctions.js';
+import { sortData, filterData } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
-
 
 // test unitario para la funcion ordenar 
 describe('sortData function', () => {
