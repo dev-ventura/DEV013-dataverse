@@ -48,7 +48,7 @@ br{
   margin-top: 35px;
   text-align: center;
   /* Aqui le damos el efecto de aparicion al texto */
-  animation: fadein 5s;
+  animation: fadein 8s;
 }
 
 @keyframes fadein {
@@ -78,18 +78,18 @@ select,
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   background-color: rgba(184, 223, 216, 1);
-  border-radius: 10px;
+  border-radius: 10%;
   margin-left: 5px;
   color: rgba(30, 30, 30, 1);
   padding: 0.5%;
   cursor: pointer;
   text-align: center;
+  overflow-x: hidden;
 }
 
 [data-testid="button-clear"] {
   background: rgba(255, 225, 148, 1);
   margin-left: 40px;
-  border-radius: 10px;
 }
 
 .logoLimpiar {
@@ -106,7 +106,7 @@ select,
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   background-color: rgba(184, 223, 216, 1);
-  border-radius: 10px;
+  border-radius: 10%;
   margin-left: 5px;
   color: rgba(30, 30, 30, 1);
   padding: 0.5%;
@@ -153,6 +153,7 @@ select,
 }
 
 .modal-main{
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,6 +164,10 @@ select,
   padding: 25px;
   display: flex;
 }
+
+/* #page {
+ overflow-y: hidden;
+} */
 
 .button-close{
   background-color: rgba(76, 76, 109, 1);
