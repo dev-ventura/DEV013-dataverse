@@ -1,5 +1,6 @@
-import { sortData, filterData } from '../src/dataFunctions.js';
+import { sortData, filterData, computeStats } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
+
 
 // test unitario para la funcion ordenar 
 describe('sortData function', () => {
@@ -49,3 +50,12 @@ describe('filterData por Genero de Prueba ', () => {
     expect(result).toStrictEqual(filter6);
   });
 });
+
+// test unitario para las estadisticas
+describe('Estadisticas', () => {
+  const estadisticas = {"16 Episodios": 6, "20 Episodios": 0, "21 Episodios": 0, "24 Episodios": 0, "32 Episodios": 0};
+  it('retorna la estadistica de fakeData', () => {
+    const resultado = computeStats(fakeData);
+    expect(resultado).toEqual(estadisticas);
+  })
+})
