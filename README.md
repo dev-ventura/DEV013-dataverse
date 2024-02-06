@@ -48,7 +48,8 @@ Nota adicional: este sitio web es solo informativo.
     * Todo el código está subido a la rama del repositorio
     * Hemos hecho al menos 2 pruebas con usuarias para saber que entiendan todo.
 
-![](https://s3.hedgedoc.org/demo/uploads/fab5da2d-2245-47c9-b2e1-feb090995cda.png)
+![historia-usuario-1](src\images\hu1.png)
+
 
 ### Historia de Usuario 2
 * Yo como usuario quiero:
@@ -66,9 +67,9 @@ Nota adicional: este sitio web es solo informativo.
     * Hemos publicado la página en GitHub Pages
     * Hemos hecho al menos 2 pruebas con usuarias para saber que entiendan todo.
 
-![](https://s3.hedgedoc.org/demo/uploads/b7a916dd-c27c-476a-beb2-ca7d43620c06.png)
+![historia-usuario-2](src\images\hu2.png)
 
-![](https://s3.hedgedoc.org/demo/uploads/fab7e6ff-be8a-45aa-899d-8b88f455f3ae.png)
+![historia-usuario-2.1](src\images\hu2a.png)
 
 
 
@@ -94,22 +95,30 @@ Personas fanaticas a los k-dramas que les gusta ver los doramas en           pla
 Cuando el usuario realiza su hobbie favorito de ver k-dramas en su tiempo libre (ej: fines de semana, trabajo, etc), esto siempre y cuando lo visualicen en su dispositivo movil o computadora.
  
 Realizamos un prototipo de baja fidelidad para nuestras historia de usuario 1 el cual a la siguiente historia de usuario va cambiando de acuerdo a la usabilidad de la usuarix.
-![](https://s3.hedgedoc.org/demo/uploads/cb383ccf-56e6-4c1b-99b0-5230334e3949.png)
+
+![prototipo-baja-fidelidad](src\images\prototipobajafidelidad.png)
 
 
 De acuerdo al feedback correspondiente dado por las usuarixs realizamos los cambios respectivos al diseño y nuestro prototipo final fue el siguiente: 
 * **Para interfaces web**
-![](https://s3.hedgedoc.org/demo/uploads/e5b2b2a0-f609-4534-8adb-aa70d42466d4.png)
+![prototipo-web](src\images\pantalla-web.png)
+
 * **Para interfaces moviles**
-![](https://s3.hedgedoc.org/demo/uploads/34c1c751-b7a6-44e9-acee-3c6ce2a26bbe.png)
+![prototipo-movil](src\images\pantalla-mobile.png)
 
 ### 5. El listado de problemas que detectaste a través de tests de usabilidad
 
 
 ### 6. Prompt utilizado para generar los datos
 *  Para realizar el dataset utilizamos a nuestro mayordomo chat gpt que ayudo con los siguientes promptings a realizar esta generacion de datos: 
-![](https://s3.hedgedoc.org/demo/uploads/0e364914-f819-4d52-98d4-35453bd44090.png)
-![](https://s3.hedgedoc.org/demo/uploads/8f2e7e8b-983d-46f0-b234-869e25f15fc9.png)
+
+![prompting-Anto] 
+(src\images\promptingAnto.png)
+
+
+![prompting-Mel] 
+(src\images\promptingMel.png)
+
 
 * Para la generacion de imagenes en nuestro caso como eran datos ya existentes procedimos a buscar desde la plataforma Pinterest, una herramienta que es como un buscador de imagenes (https://www.pinterest.com/)
 
