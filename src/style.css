@@ -27,17 +27,11 @@ header {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Bungee', sans-serif;
   color: rgba(76, 76, 109, 1);
   padding-top: 29px;
 
-}
-
-br{
-  display: block;
-  content: '\25'; 
-  margin-top: 0.05em; /* esto permite que sea el espaciado entre ese salto de linea */ 
 }
 
 .texto-bienvenida {
@@ -84,6 +78,7 @@ select,
   padding: 0.5%;
   cursor: pointer;
   text-align: center;
+  overflow-x: hidden;
 }
 
 [data-testid="button-clear"] {
@@ -153,6 +148,7 @@ select,
 }
 
 .modal-main{
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,6 +159,10 @@ select,
   padding: 25px;
   display: flex;
 }
+
+/* #page {
+ overflow-y: hidden;
+} */
 
 .button-close{
   background-color: rgba(76, 76, 109, 1);
