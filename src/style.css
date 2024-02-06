@@ -27,13 +27,15 @@ header {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Bungee', sans-serif;
   color: rgba(76, 76, 109, 1);
   padding-top: 29px;
-
 }
 
+.verse{
+  display: block;
+}
 .texto-bienvenida {
   font-size: 25px;
   font-weight: bold;
