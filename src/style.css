@@ -31,6 +31,13 @@ h1 {
   font-family: 'Bungee', sans-serif;
   color: rgba(76, 76, 109, 1);
   padding-top: 29px;
+
+}
+
+br{
+  display: block;
+  content: '\25'; 
+  margin-top: 0.05em; /* esto permite que sea el espaciado entre ese salto de linea */ 
 }
 
 .texto-bienvenida {
