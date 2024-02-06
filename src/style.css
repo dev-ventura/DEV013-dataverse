@@ -30,11 +30,13 @@ h1 {
   font-size: 25px;
   font-family: 'Bungee', sans-serif;
   color: rgba(76, 76, 109, 1);
-  padding-top: 29px;
+  padding-top: 20px;
+  line-height: 1.3;
 }
 
 .verse{
   display: block;
+  overflow: hidden;
 }
 .texto-bienvenida {
   font-size: 25px;
