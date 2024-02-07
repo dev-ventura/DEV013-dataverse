@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>k-drama verse</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300;500&family=Staatliches&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300;500&family=Roboto:wght@300;700&family=Staatliches&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/news.gif" class="logo">
+    <h1>K-DRAMA <span class="verse">VERSE</span></h1>
+  </header>
+  <main>
+    <nav class="menu">
+      <!--Seccion genero-->
+      <label for="Genero1">Genero: </label>
+      <select id="Genero1" name="genero" data-testid="select-filter">
+        <option value="a" selected disabled>seleccionar</option>
+        <option value="Romance">Romance</option>
+        <option value="Drama">Drama</option>
+        <option value="Comedia">Comedia</option>
+        <option value="Fantasía">Fantasía</option>
+        <option value="Thriller">Thriller</option>
+        <option value="Acción">Acción</option>
+      </select>
+      <!--Seccion ordenar A-Z-->
+      <label for="Ordenar1">Ordenar: </label>
+      <select id="Ordenar1" name="ordenar" data-testid="select-sort">
+        <option value="a" selected disabled>seleccionar</option>
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
+      <!--Seccion Estadisticas-->
+      <label for="Estadisticas1">Estadística: </label>
+      <button id="Estadisticas1">Número de episodios</button>
+      <div class="content-modal" id="modal">
+        <div class="modal-body">
+          <div class="modal-header">
+            <h3 id="texto-estadistica">Estadística <br /> por número de episodios</h3><br>
+            <div class="modal-main">
+              <img class="logo-kdrama" src="images/kpop.png"><br />
+              <p id="page"> <br /></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="reset" id="close" class="button-close">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--Boton Limpiar filtros-->
+      <button name="button-clear" data-testid="button-clear">
+        <img class="logoLimpiar" src="images/filter.png" />
+        Limpiar filtros</button>
+    </nav>
+
+    <p class="texto-bienvenida">"Bienvenido al fascinante mundo de los K-dramas, <br />donde cada historia es un viaje emocionante lleno de romance, comedia y suspenso."</p>
+
+    <section id="root">
+      <ul>
+        <li class="data-root" itemscope itemtype="k-dramas">
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <hr>
+  <footer>
+    Copyright @ 2024 Antone Gonzales &amp; Melany Ventura
+  </footer>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
