@@ -48,7 +48,7 @@ Nota adicional: este sitio web es solo informativo.
     * Todo el código está subido a la rama del repositorio
     * Hemos hecho al menos 2 pruebas con usuarias para saber que entiendan todo.
 
-![historia-usuario-1](src\images\hu1.png)
+<img src= src\images\hu1.png alt="historia de usuario 1">
 
 
 ### Historia de Usuario 2
@@ -67,9 +67,9 @@ Nota adicional: este sitio web es solo informativo.
     * Hemos publicado la página en GitHub Pages
     * Hemos hecho al menos 2 pruebas con usuarias para saber que entiendan todo.
 
-![historia-usuario-2](src\images\hu2.png)
+<img src= src\images\hu2.png alt="historia de usuario 2">
 
-![historia-usuario-2.1](src\images\hu2a.png)
+<img src= src\images\hu2a.png alt="historia de usuario 2.1">
 
 
 
@@ -96,15 +96,15 @@ Cuando el usuario realiza su hobbie favorito de ver k-dramas en su tiempo libre 
  
 Realizamos un prototipo de baja fidelidad para nuestras historia de usuario 1 el cual a la siguiente historia de usuario va cambiando de acuerdo a la usabilidad de la usuarix.
 
-![prototipo-baja-fidelidad](src\images\prototipobajafidelidad.png)
+<img src= src\images\prototipobajafidelidad.png alt="prototipo de baja fidelidad">
 
 
 De acuerdo al feedback correspondiente dado por las usuarixs realizamos los cambios respectivos al diseño y nuestro prototipo final fue el siguiente: 
 * **Para interfaces web**
-![prototipo-web](src\images\pantalla-web.png)
+<img src= src\images\pantalla-web.png alt="prototipo web">
 
 * **Para interfaces moviles**
-![prototipo-movil](src\images\pantalla-mobile.png)
+<img src= src\images\pantalla-mobile.png alt="prototipo web">
 
 ### 5. El listado de problemas que detectaste a través de tests de usabilidad
 
@@ -112,12 +112,11 @@ De acuerdo al feedback correspondiente dado por las usuarixs realizamos los camb
 ### 6. Prompt utilizado para generar los datos
 *  Para realizar el dataset utilizamos a nuestro mayordomo chat gpt que ayudo con los siguientes promptings a realizar esta generacion de datos: 
 
-![prompting-Anto] 
-(src\images\promptingAnto.png)
+<img src= src\images\promptingAnto.png alt="prompting Anto">
 
 
-![prompting-Mel] 
-(src\images\promptingMel.png)
+
+<img src= src\images\promptingMel.png alt="prompting Mel">
 
 
 * Para la generacion de imagenes en nuestro caso como eran datos ya existentes procedimos a buscar desde la plataforma Pinterest, una herramienta que es como un buscador de imagenes (https://www.pinterest.com/)
